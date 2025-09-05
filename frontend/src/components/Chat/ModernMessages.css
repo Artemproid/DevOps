@@ -1,0 +1,246 @@
+/* 🎨 Современные стили для сообщений */
+
+.modern-message-wrapper {
+  display: flex;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.modern-message-card {
+  max-width: 70%;
+  min-width: 200px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.modern-message-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: translateY(-1px);
+}
+
+.modern-message-body {
+  padding: 12px 16px;
+}
+
+/* === АВАТАРКИ === */
+.message-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* === ЗАГОЛОВОК СООБЩЕНИЯ === */
+.modern-message-header {
+  margin-bottom: 8px;
+}
+
+.username {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.message-time {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.type-badge {
+  border: 1px solid #dee2e6;
+  font-weight: 500;
+}
+
+/* === СОДЕРЖИМОЕ СООБЩЕНИЙ === */
+.modern-message-content {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* === ТИПЫ СООБЩЕНИЙ === */
+
+/* Мои сообщения */
+.my-message .modern-message-card {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  color: white;
+}
+
+.my-message .username,
+.my-message .type-badge {
+  color: white;
+}
+
+.my-message .type-badge {
+  background: rgba(255,255,255,0.2) !important;
+  border-color: rgba(255,255,255,0.3);
+}
+
+/* Чужие сообщения */
+.other-message .modern-message-card {
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* === ASCII АРТ === */
+.message-type-ascii_art {
+  background: #1a1a1a !important;
+  color: #00ff00 !important;
+  border: 2px solid #333 !important;
+}
+
+.message-type-ascii_art .username,
+.message-type-ascii_art .type-badge {
+  color: #00ff00 !important;
+}
+
+.ascii-content {
+  background: #000;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #333;
+}
+
+.ascii-pre {
+  font-family: 'Courier New', 'Lucida Console', monospace;
+  font-size: 11px;
+  line-height: 1.1;
+  color: #00ff00;
+  margin: 0;
+  white-space: pre;
+  overflow-x: auto;
+  text-shadow: 0 0 5px rgba(0,255,0,0.5);
+}
+
+/* === ПИРАТСКИЕ СООБЩЕНИЯ === */
+.message-type-pirate {
+  background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%) !important;
+  color: #FFE4B5 !important;
+  border: 2px solid #ffa500 !important;
+}
+
+.pirate-content {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.pirate-text {
+  position: relative;
+}
+
+.pirate-text::before {
+  content: "🏴‍☠️";
+  margin-right: 8px;
+}
+
+/* === РЫЦАРСКИЕ СООБЩЕНИЯ === */
+.message-type-knight {
+  background: linear-gradient(135deg, #483D8B 0%, #6A5ACD 100%) !important;
+  color: #F0F8FF !important;
+  border: 2px solid #4169E1 !important;
+}
+
+.knight-content {
+  font-family: 'Times New Roman', serif;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.knight-text::before {
+  content: "⚔️";
+  margin-right: 8px;
+}
+
+/* === РОБОТИЧЕСКИЕ СООБЩЕНИЯ === */
+.message-type-robot {
+  background: linear-gradient(135deg, #2F4F4F 0%, #708090 100%) !important;
+  color: #E0FFFF !important;
+  border: 2px solid #00CED1 !important;
+}
+
+.robot-content {
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px rgba(0,255,255,0.5);
+}
+
+.robot-text::before {
+  content: "🤖";
+  margin-right: 8px;
+}
+
+/* === СИСТЕМНЫЕ СООБЩЕНИЯ === */
+.message-type-system {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+  border: none !important;
+  max-width: 90% !important;
+  margin: 0 auto;
+}
+
+.system-content {
+  text-align: center;
+  font-weight: 500;
+}
+
+.system-content::before {
+  content: "🤖";
+  margin-right: 8px;
+}
+
+/* === АДАПТИВНОСТЬ === */
+@media (max-width: 768px) {
+  .modern-message-card {
+    max-width: 85%;
+  }
+  
+  .message-avatar {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .modern-message-content {
+    font-size: 13px;
+  }
+  
+  .ascii-pre {
+    font-size: 10px;
+  }
+}
+
+/* === АНИМАЦИИ === */
+.modern-message-card {
+  animation: messageSlideIn 0.3s ease-out;
+}
+
+@keyframes messageSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === СКРОЛЛБАР ДЛЯ ASCII === */
+.ascii-pre::-webkit-scrollbar {
+  height: 6px;
+}
+
+.ascii-pre::-webkit-scrollbar-track {
+  background: #333;
+}
+
+.ascii-pre::-webkit-scrollbar-thumb {
+  background: #00ff00;
+  border-radius: 3px;
+}
+
+.ascii-pre::-webkit-scrollbar-thumb:hover {
+  background: #00cc00;
+}

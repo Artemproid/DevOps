@@ -1,0 +1,5713 @@
+[
+  {
+    "original_pattern": "\\bпривет\\b",
+    "styled_options": [
+      "йо-хо-хо",
+      "arr",
+      "салют"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bдом\\b",
+    "styled_options": [
+      "каюта"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bдомой\\b",
+    "styled_options": [
+      "в каюту"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bдома\\b",
+    "styled_options": [
+      "в каюте"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bдруг\\b",
+    "styled_options": [
+      "корсар",
+      "старый волк"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bденьги\\b",
+    "styled_options": [
+      "пиастры"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bеда\\b",
+    "styled_options": [
+      "провизия"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bмашина\\b",
+    "styled_options": [
+      "корвет"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bтелефон\\b",
+    "styled_options": [
+      "хронометр"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bврач\\b",
+    "styled_options": [
+      "корабельный лекарь"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bработа\\b",
+    "styled_options": [
+      "корабельная служба"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bработаю\\b",
+    "styled_options": [
+      "несу вахту",
+      "служу"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bспать\\b",
+    "styled_options": [
+      "вешать чёрные метки"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bесть\\b",
+    "styled_options": [
+      "уплетать провизию"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bпить\\b",
+    "styled_options": [
+      "потягивать ром"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bотлично\\b",
+    "styled_options": [
+      "великолепно",
+      "по курсу"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bужасно\\b",
+    "styled_options": [
+      "кошмар морской"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bкруто\\b",
+    "styled_options": [
+      "по курсу",
+      "arr"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "как дела",
+    "styled_options": [
+      "как житуха",
+      "как дела морские"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "что делаешь",
+    "styled_options": [
+      "чем занимаешься",
+      "какие дела ведёшь"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "до свидания",
+    "styled_options": [
+      "попутного ветра",
+      "удачного плавания"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ в\\ деньги\\b",
+    "styled_options": [
+      "иду в пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ пойдём\\ гулять\\b",
+    "styled_options": [
+      "вчера отправимся в плавание"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпью\\ завтрак\\b",
+    "styled_options": [
+      "пью утренняя провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ отдыхаю\\b",
+    "styled_options": [
+      "вечером предаюсь морской неге"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ хочу\\ пить\\b",
+    "styled_options": [
+      "утром жажда замучила"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдождь\\ сейчас\\b",
+    "styled_options": [
+      "дождь сейчас"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bполучил\\ зарплату\\b",
+    "styled_options": [
+      "пиастры в кармане"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ учиться\\b",
+    "styled_options": [
+      "пора учиться"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзвоню\\b",
+    "styled_options": [
+      "связываюсь по хронометру"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bне\\ помню\\b",
+    "styled_options": [
+      "память изменяет"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bел\\ телефон\\b",
+    "styled_options": [
+      "ел хронометр"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bна\\ улице\\ туман\\b",
+    "styled_options": [
+      "на улице туман"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ я\\ готовил\\b",
+    "styled_options": [
+      "вечером я готовил"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ учусь\\b",
+    "styled_options": [
+      "днём постигаю морскую науку"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ работаю\\b",
+    "styled_options": [
+      "вчера несу вахту"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ драться\\b",
+    "styled_options": [
+      "пора сойтись якорями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ счастливый!\\b",
+    "styled_options": [
+      "как джентльмен на золотом дублоне"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ напиваться\\b",
+    "styled_options": [
+      "пора мутить шторм в трюме"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсломался\\ кошелёк\\b",
+    "styled_options": [
+      "сломался кошелёк йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ весёлое\\ настроение\\b",
+    "styled_options": [
+      "утром поднял весёлого роджера"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ весёлое\\ настроение\\b",
+    "styled_options": [
+      "вечером поднял весёлого роджера"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсмотрю\\ сериал\\b",
+    "styled_options": [
+      "наблюдаю долгий театр теней"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bконечно!\\b",
+    "styled_options": [
+      "само собой"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзаказываю\\ доставку\\b",
+    "styled_options": [
+      "вызываю корвет с провизией"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ я\\ учился\\b",
+    "styled_options": [
+      "сегодня я учился arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ болею\\b",
+    "styled_options": [
+      "завтра хвораю"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдорого\\b",
+    "styled_options": [
+      "много пиастров просят"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ быстрый!\\b",
+    "styled_options": [
+      "как одноногий сильвер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпью\\ хлеб\\b",
+    "styled_options": [
+      "пью сухари"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпривет!\\ как\\ дела\\?\\b",
+    "styled_options": [
+      "йо-хо-хо! как житуха, старый волк?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ толстый!\\b",
+    "styled_options": [
+      "как кот в портовом трактире"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bволнуюсь\\b",
+    "styled_options": [
+      "сердце как в шторм, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bчто\\ происходит\\?\\b",
+    "styled_options": [
+      "что происходит? йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bобедаю\\ в\\ кафе\\b",
+    "styled_options": [
+      "обпровизияю в таверну"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ убирал\\b",
+    "styled_options": [
+      "ночью убирал, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ купаться\\b",
+    "styled_options": [
+      "хочу просаливать кости"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bмой\\ повар\\ ушёл\\b",
+    "styled_options": [
+      "мой кок сбежал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ убираю\\b",
+    "styled_options": [
+      "днём навожу порядок"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ отдыхал\\b",
+    "styled_options": [
+      "вчера отдыхал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bскучаю\\ по\\ родителям\\b",
+    "styled_options": [
+      "скучаю по родителям йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ спать\\b",
+    "styled_options": [
+      "иду вешать чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ умный\\b",
+    "styled_options": [
+      "этот парень как морская грамота"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bел\\ деньги\\b",
+    "styled_options": [
+      "ел пиастры, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ ужин\\b",
+    "styled_options": [
+      "хочу вечерняя провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bидёт\\ дождь\\b",
+    "styled_options": [
+      "небесная артиллерия палит!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ я\\ работал\\b",
+    "styled_options": [
+      "ночью я делол"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ хитрый\\b",
+    "styled_options": [
+      "она как морской черт"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнастроение\\ холодное\\b",
+    "styled_options": [
+      "настроение холодное, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсолнце\\ тусклое\\b",
+    "styled_options": [
+      "солнце тусклое"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bне\\ хочу!\\b",
+    "styled_options": [
+      "не буду"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ хочу\\ пить\\b",
+    "styled_options": [
+      "днём жажда замучила"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bеду\\ к\\ врачу\\b",
+    "styled_options": [
+      "провизию к корабельному лекарю arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bначинаю\\ работу\\b",
+    "styled_options": [
+      "заступаю на вахту"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдай\\ мне\\ денег\\b",
+    "styled_options": [
+      "дели пиастры, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bслегка\\ устал\\b",
+    "styled_options": [
+      "чуток устал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ я\\ спал\\b",
+    "styled_options": [
+      "вечером я спал arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bгде\\ моя\\ товарищ\\?\\b",
+    "styled_options": [
+      "где моя старый пройдоха, arr?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ я\\ работал\\b",
+    "styled_options": [
+      "сегодня я делол arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ дырявый\\b",
+    "styled_options": [
+      "он как пиратская посудина"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпойдём\\ гулять\\b",
+    "styled_options": [
+      "отправимся в плавание"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсильно\\ голоден\\b",
+    "styled_options": [
+      "дьявольски голоден, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ ругаться\\b",
+    "styled_options": [
+      "хочу палить изо всех пушек"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ смотрю\\ телевизор\\b",
+    "styled_options": [
+      "завтра наблюдаю театр теней"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ читать\\b",
+    "styled_options": [
+      "хочу читать"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bчитаю\\ интересную\\ книгу\\b",
+    "styled_options": [
+      "читаю интересную корабельный журнал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ хвастаться\\b",
+    "styled_options": [
+      "пора меряться кладами"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bел\\ часы\\b",
+    "styled_options": [
+      "ел часы"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ покупал\\b",
+    "styled_options": [
+      "днём покупал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиграю\\ в\\ игры\\b",
+    "styled_options": [
+      "провожу морские сражения"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпродал\\ ключи\\b",
+    "styled_options": [
+      "продал ключи arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиспугался\\b",
+    "styled_options": [
+      "мурашки по коже"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bем\\ завтрак\\b",
+    "styled_options": [
+      "ем утренняя провизия йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ танцевать\\b",
+    "styled_options": [
+      "хочу трясти костями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсломался\\ очки\\b",
+    "styled_options": [
+      "сломался очки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bмного\\ работы\\b",
+    "styled_options": [
+      "много корабельных дел"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bгде\\ моя\\ повар\\?\\b",
+    "styled_options": [
+      "где моя кок, arr?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ учусь\\b",
+    "styled_options": [
+      "вчера постигаю морскую науку"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bел\\ ключи\\b",
+    "styled_options": [
+      "ел ключи arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ пойдём\\ гулять\\b",
+    "styled_options": [
+      "утром отправимся в плавание"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ болею\\b",
+    "styled_options": [
+      "вечером хвораю"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ учусь\\b",
+    "styled_options": [
+      "ночью постигаю морскую науку"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ весёлый\\b",
+    "styled_options": [
+      "он как роджер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ ем\\b",
+    "styled_options": [
+      "сегодня уплетаю провизию"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bгуляю\\b",
+    "styled_options": [
+      "брожу по палубе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлежу\\ дома\\b",
+    "styled_options": [
+      "лежу в каюте"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ иду\\ спать\\b",
+    "styled_options": [
+      "вчера иду вешать чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпасмурно\\b",
+    "styled_options": [
+      "тучи нависли"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ я\\ убирал\\b",
+    "styled_options": [
+      "вечером я убирал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ пить\\b",
+    "styled_options": [
+      "пора промочить горло"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bколлеги\\ хорошие\\b",
+    "styled_options": [
+      "отличная команда"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ покупать\\ что\\-либо\\b",
+    "styled_options": [
+      "хочу метать пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовлю\\ вода\\b",
+    "styled_options": [
+      "готовлю пресная вода"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ изменять\\b",
+    "styled_options": [
+      "хочу поддать лево руля"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ ругаться\\b",
+    "styled_options": [
+      "пора палить изо всех пушек"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпишу\\ сообщение\\b",
+    "styled_options": [
+      "отправляю послание"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bотлично!\\b",
+    "styled_options": [
+      "йо-хо-хо, морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ я\\ работал\\b",
+    "styled_options": [
+      "утром я делол"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bмой\\ товарищ\\ ушёл\\b",
+    "styled_options": [
+      "мой старый пройдоха сбежал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ сдаться\\b",
+    "styled_options": [
+      "иду поднять белый флаг"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bновая\\ работа\\b",
+    "styled_options": [
+      "новый корабль, новая команда!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ устал\\b",
+    "styled_options": [
+      "вечером силы на исходе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ зоркий\\b",
+    "styled_options": [
+      "он как слепой пью"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовил\\ деньги\\b",
+    "styled_options": [
+      "готовил пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлюблю\\ мясо\\b",
+    "styled_options": [
+      "люблю говядина"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bполучил\\ премию\\b",
+    "styled_options": [
+      "наградили дополнительными пиастрами!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ как\\ поживаешь\\?\\b",
+    "styled_options": [
+      "вчера как поживаешь, старина?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bидём\\?\\ \\-\\ пошли\\b",
+    "styled_options": [
+      "отчаливаем? - поднимаем якорь"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпишу\\ в\\ чате\\b",
+    "styled_options": [
+      "общаюсь с командой"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ покупал\\b",
+    "styled_options": [
+      "утром покупал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bболею\\b",
+    "styled_options": [
+      "хвораю"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ умереть\\b",
+    "styled_options": [
+      "хочу отправиться кормить рыб"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ отдыхать\\b",
+    "styled_options": [
+      "хочу отдыхать йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпойду\\ на\\ работу\\b",
+    "styled_options": [
+      "пойду на работу йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ идти\\b",
+    "styled_options": [
+      "пора направлять корвет (шхуну)"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсолнечно\\b",
+    "styled_options": [
+      "солнце жарит"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнастроение\\ красивое\\b",
+    "styled_options": [
+      "настроение красивое"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ смотрю\\ телевизор\\b",
+    "styled_options": [
+      "сегодня наблюдаю театр теней"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ зоркий!\\b",
+    "styled_options": [
+      "как слепой пью"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ я\\ спал\\b",
+    "styled_options": [
+      "сегодня я спал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготов\\ ругаться\\b",
+    "styled_options": [
+      "готов палить изо всех пушек"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ весёлый\\b",
+    "styled_options": [
+      "она как роджер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ зоркий\\b",
+    "styled_options": [
+      "она как слепой пью"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвстаю\\ рано\\b",
+    "styled_options": [
+      "встаю рано arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ смотрю\\ телевизор\\b",
+    "styled_options": [
+      "вечером наблюдаю театр теней"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ до\\ свидания\\b",
+    "styled_options": [
+      "завтра попутного ветра, старый корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсижу\\ в\\ интернете\\b",
+    "styled_options": [
+      "общаюсь по морской почте"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bем\\b",
+    "styled_options": [
+      "уплетаю провизию"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнемного\\ волнуюсь\\b",
+    "styled_options": [
+      "слегка волнуюсь"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ ем\\b",
+    "styled_options": [
+      "завтра уплетаю провизию"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ хлеб\\b",
+    "styled_options": [
+      "хочу сухари arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ грустно\\b",
+    "styled_options": [
+      "вечером тоска морская одолела"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ отдыхаю\\b",
+    "styled_options": [
+      "днём предаюсь морской неге"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдерьмо!\\b",
+    "styled_options": [
+      "кальмарьи кишки!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзаказываю\\ еду\\b",
+    "styled_options": [
+      "заказываю провизию"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ сплю\\b",
+    "styled_options": [
+      "ночью вешаю чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ привет!\\b",
+    "styled_options": [
+      "вечером йо-хо-хо"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсломался\\ телефон\\b",
+    "styled_options": [
+      "накрылся хронометр медным тазом!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкогда\\ встретимся\\?\\b",
+    "styled_options": [
+      "когда корабли встретятся, проклятье?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпочему\\ опаздываешь\\?\\b",
+    "styled_options": [
+      "почему тормозишь, кальмарьи кишки?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкоплю\\ деньги\\b",
+    "styled_options": [
+      "собираю пиастры в сундук"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ ругаться\\b",
+    "styled_options": [
+      "иду палить изо всех пушек"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнемного\\ голоден\\b",
+    "styled_options": [
+      "слегка голоден, корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ читаю\\b",
+    "styled_options": [
+      "завтра читаю"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bложусь\\ поздно\\b",
+    "styled_options": [
+      "ложусь поздно"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ я\\ готовил\\b",
+    "styled_options": [
+      "вчера я готовил йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bем\\ обед\\b",
+    "styled_options": [
+      "ем дневная провизия arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвкусно\\b",
+    "styled_options": [
+      "отменная провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ старый\\b",
+    "styled_options": [
+      "она как пиратские анекдоты"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ хочу\\ пить\\b",
+    "styled_options": [
+      "вчера жажда замучила"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ пить\\b",
+    "styled_options": [
+      "жажда мучает"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bудивлён\\b",
+    "styled_options": [
+      "разрази меня гром, не ожидал!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bудачи\\ в\\ делах\\b",
+    "styled_options": [
+      "попутного ветра в делах"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ готовил\\b",
+    "styled_options": [
+      "ночью готовил arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ купаться\\b",
+    "styled_options": [
+      "пора просаливать кости"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ хочу\\ есть\\b",
+    "styled_options": [
+      "вечером провизию бы найти"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bслегка\\ голоден\\b",
+    "styled_options": [
+      "чуток голоден"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ я\\ отдыхал\\b",
+    "styled_options": [
+      "утром я отдыхал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bработаю\\ в\\ офисе\\b",
+    "styled_options": [
+      "служу в капитанской каюте"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ вода\\b",
+    "styled_options": [
+      "хочу пресная вода"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bслегка\\ злюсь\\b",
+    "styled_options": [
+      "чуток злюсь arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bя\\ очень\\ голодный\\b",
+    "styled_options": [
+      "я очень голодный arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bскучно\\ мне\\b",
+    "styled_options": [
+      "тоскливо на душе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ я\\ спал\\b",
+    "styled_options": [
+      "днём я спал йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпродал\\ документы\\b",
+    "styled_options": [
+      "продал документы йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсобираюсь\\ покупать\\b",
+    "styled_options": [
+      "собираюсь покупать"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзабыл\\ кошелёк\\b",
+    "styled_options": [
+      "забыл кошелёк, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвстречаюсь\\ с\\ другом\\b",
+    "styled_options": [
+      "встречаюсь с корсаром йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bеду\\ на\\ машине\\b",
+    "styled_options": [
+      "управляю корветом"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bгде\\ моя\\ комната\\?\\b",
+    "styled_options": [
+      "где моя каюта, arr?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ худой\\b",
+    "styled_options": [
+      "этот парень как летучий голландец"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ трусливый\\b",
+    "styled_options": [
+      "этот парень как корабельная крыса"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ завтрак\\b",
+    "styled_options": [
+      "покупаю утренняя провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ убираю\\b",
+    "styled_options": [
+      "вчера навожу порядок"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ я\\ работал\\b",
+    "styled_options": [
+      "днём я делол"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ иду\\ спать\\b",
+    "styled_options": [
+      "завтра иду вешать чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ гулять\\b",
+    "styled_options": [
+      "иду гулять"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвлюбился\\b",
+    "styled_options": [
+      "сердце захватила морская принцесса!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ смелый\\b",
+    "styled_options": [
+      "он как искатель сокровищ"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bочень\\ устал\\b",
+    "styled_options": [
+      "силы на исходе, морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ работаю\\b",
+    "styled_options": [
+      "ночью несу вахту"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ весёлый!\\b",
+    "styled_options": [
+      "как роджер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ работать\\b",
+    "styled_options": [
+      "хочу делоть arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ я\\ убирал\\b",
+    "styled_options": [
+      "ночью я убирал йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ худой!\\b",
+    "styled_options": [
+      "как летучий голландец"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bжду\\ друга\\b",
+    "styled_options": [
+      "жду корсара"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ болею\\b",
+    "styled_options": [
+      "днём хвораю"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bочень\\ волнуюсь\\b",
+    "styled_options": [
+      "чертовски волнуюсь"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ я\\ учился\\b",
+    "styled_options": [
+      "вчера я учился"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bем\\ хлеб\\b",
+    "styled_options": [
+      "ем сухари"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ уйти\\b",
+    "styled_options": [
+      "пора сняться с якоря"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ дырявый\\b",
+    "styled_options": [
+      "она как пиратская посудина"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовлю\\ мясо\\b",
+    "styled_options": [
+      "готовлю говядина йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлюблю\\ кофе\\b",
+    "styled_options": [
+      "люблю горячий напиток"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ хвастаться\\b",
+    "styled_options": [
+      "иду меряться кладами"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ веселый\\b",
+    "styled_options": [
+      "он как роджер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ богатый\\b",
+    "styled_options": [
+      "она как губернатор ямайки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ мясо\\b",
+    "styled_options": [
+      "хочу говядина arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bне\\ вижу\\b",
+    "styled_options": [
+      "глаза подводят"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ готовлю\\b",
+    "styled_options": [
+      "утром колдую в камбузе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ завтрак\\b",
+    "styled_options": [
+      "хочу утренняя провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ готовлю\\b",
+    "styled_options": [
+      "ночью колдую в камбузе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтракаю\\ дома\\b",
+    "styled_options": [
+      "завтракаю в каюте, корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ болтливый\\b",
+    "styled_options": [
+      "он как пьяный боцман"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнеправильно\\b",
+    "styled_options": [
+      "мимо цели"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ привет!\\b",
+    "styled_options": [
+      "сегодня йо-хо-хо"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ трусливый\\b",
+    "styled_options": [
+      "он как корабельная крыса"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкошмар!\\b",
+    "styled_options": [
+      "морской дьявол, что за беда!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bгрустно\\b",
+    "styled_options": [
+      "тоска морская одолела"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bблин!\\b",
+    "styled_options": [
+      "морской дьявол!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ скучно\\b",
+    "styled_options": [
+      "утром тоскливо на душе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ покупать\\b",
+    "styled_options": [
+      "пора бренчать золотишком; метать пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ отдыхаю\\b",
+    "styled_options": [
+      "вчера предаюсь морской неге"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ я\\ гулял\\b",
+    "styled_options": [
+      "утром я гулял"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдорогие\\ вещи\\b",
+    "styled_options": [
+      "дорогие вещи arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ веселый\\b",
+    "styled_options": [
+      "она как роджер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bгде\\ моя\\ кухня\\?\\b",
+    "styled_options": [
+      "где моя камбуз, arr?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ учусь\\b",
+    "styled_options": [
+      "вечером постигаю морскую науку"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bговорил\\ с\\ врачом\\b",
+    "styled_options": [
+      "говорил с лекарьом"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпойдём\\ покушать\\b",
+    "styled_options": [
+      "направим корвет в таверну"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bтуман\\b",
+    "styled_options": [
+      "морской туман окутал всё!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ обед\\b",
+    "styled_options": [
+      "покупаю дневная провизия йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ громкий\\b",
+    "styled_options": [
+      "она как корабельная пушка"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпил\\ документы\\b",
+    "styled_options": [
+      "пил документы"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ в\\ комната\\b",
+    "styled_options": [
+      "иду в каюта"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвкусная\\ еда\\b",
+    "styled_options": [
+      "вкусная еда, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ трусливый\\b",
+    "styled_options": [
+      "она как корабельная крыса"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ идти\\b",
+    "styled_options": [
+      "хочу направлять корвет (шхуну)"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bжду\\ автобус\\b",
+    "styled_options": [
+      "дожидаюсь корвета"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ болтливый!\\b",
+    "styled_options": [
+      "как пьяный боцман"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bчёрт\\ побери!\\b",
+    "styled_options": [
+      "гром и молния!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bстарые\\ друзья\\b",
+    "styled_options": [
+      "старые друзья йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ щедрый!\\b",
+    "styled_options": [
+      "как кок на раздаче"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ ужин\\b",
+    "styled_options": [
+      "покупаю вечерняя провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ готовил\\b",
+    "styled_options": [
+      "вчера готовил йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзарплата\\ маленькая\\b",
+    "styled_options": [
+      "пиастров мало дают!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bчто\\ делаешь\\?\\b",
+    "styled_options": [
+      "чем занимаешься, морской дьявол?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bработаю\\ удалённо\\b",
+    "styled_options": [
+      "несу вахту с каюты, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bубираю\\ дом\\b",
+    "styled_options": [
+      "привожу каюту в порядок!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ злой\\ день\\b",
+    "styled_options": [
+      "сегодня злой день"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ горбатый\\b",
+    "styled_options": [
+      "она как погнутая мачта"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ сплю\\b",
+    "styled_options": [
+      "вечером вешаю чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ молчаливый!\\b",
+    "styled_options": [
+      "как мертвец, охраняющий клад"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bем\\ чай\\b",
+    "styled_options": [
+      "ем травяной отвар"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлюблю\\ чай\\b",
+    "styled_options": [
+      "люблю травяной отвар"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ веселый\\b",
+    "styled_options": [
+      "этот парень как роджер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ я\\ спал\\b",
+    "styled_options": [
+      "утром я спал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ в\\ часы\\b",
+    "styled_options": [
+      "иду в хронометр"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ я\\ готовил\\b",
+    "styled_options": [
+      "утром я готовил"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ грустно\\b",
+    "styled_options": [
+      "вчера тоска морская одолела"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ читал\\b",
+    "styled_options": [
+      "утром читал arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ щедрый\\b",
+    "styled_options": [
+      "он как кок на раздаче"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bневероятно!\\b",
+    "styled_options": [
+      "разрази меня гром!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ пойдём\\ гулять\\b",
+    "styled_options": [
+      "вечером отправимся в плавание"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсупер!\\b",
+    "styled_options": [
+      "великолепно"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ худой\\b",
+    "styled_options": [
+      "она как летучий голландец"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bболит\\ голова\\b",
+    "styled_options": [
+      "череп трещит"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ сплю\\b",
+    "styled_options": [
+      "днём вешаю чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ в\\ магазине\\b",
+    "styled_options": [
+      "иду в лавкае"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкупил\\ документы\\b",
+    "styled_options": [
+      "купил документы arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпродал\\ очки\\b",
+    "styled_options": [
+      "продал очки, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдо\\ встречи!\\b",
+    "styled_options": [
+      "попутного ветра"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвот\\ дерьмо!\\b",
+    "styled_options": [
+      "карамба!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bточно!\\b",
+    "styled_options": [
+      "в точку"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ готовлю\\b",
+    "styled_options": [
+      "вечером колдую в камбузе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпроверяю\\ телефон\\b",
+    "styled_options": [
+      "проверяю хронометр, разрази меня гром!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ работал\\b",
+    "styled_options": [
+      "днём делол"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ работаю\\b",
+    "styled_options": [
+      "завтра делою"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпью\\ вода\\b",
+    "styled_options": [
+      "пью пресная вода"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bголоден\\b",
+    "styled_options": [
+      "брюхо требует провизии"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ веселый!\\b",
+    "styled_options": [
+      "как роджер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпонятно\\?\\ \\-\\ да\\b",
+    "styled_options": [
+      "ясно? - как день"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ хочу\\ есть\\b",
+    "styled_options": [
+      "сегодня провизию бы найти"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнужны\\ часы\\b",
+    "styled_options": [
+      "нужны хронометр"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсвадьба\\ у\\ друга\\b",
+    "styled_options": [
+      "корсар справляет морскую свадьбу!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпланирую\\ деньги\\b",
+    "styled_options": [
+      "планирую пиастры, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдо\\ свидания\\b",
+    "styled_options": [
+      "попутного ветра, старый корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпойду\\ домой\\b",
+    "styled_options": [
+      "пойду каютаой"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдёшево\\b",
+    "styled_options": [
+      "за бесценок отдают, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ что\\ делаешь\\?\\b",
+    "styled_options": [
+      "вчера чем занимаешься, морской волк?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bветрено\\b",
+    "styled_options": [
+      "ветер свистит в снастях!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ весёлый\\b",
+    "styled_options": [
+      "этот парень как роджер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдождь\\b",
+    "styled_options": [
+      "небесная артиллерия палит"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсобираюсь\\ работать\\b",
+    "styled_options": [
+      "собираюсь делоть arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bветер\\ слабый\\b",
+    "styled_options": [
+      "ветер слабый"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ готовлю\\b",
+    "styled_options": [
+      "вчера колдую в камбузе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпью\\ чай\\b",
+    "styled_options": [
+      "пью травяной отвар"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнемного\\ устал\\b",
+    "styled_options": [
+      "слегка устал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпойду\\ танцевать\\b",
+    "styled_options": [
+      "пойду трясти костями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ устал\\b",
+    "styled_options": [
+      "завтра силы на исходе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ высокий!\\b",
+    "styled_options": [
+      "как бом-брамсель"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bувидимся\\ завтра\\b",
+    "styled_options": [
+      "встретимся на следующих склянках!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bеду\\ на\\ такси\\b",
+    "styled_options": [
+      "нанимаю корвет"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ читаю\\b",
+    "styled_options": [
+      "ночью изучаю корабельные журналы"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ идти\\ куда\\-то\\b",
+    "styled_options": [
+      "иду направлять свой корвет"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ старый!\\b",
+    "styled_options": [
+      "как пиратские анекдоты"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзакончил\\ работу\\b",
+    "styled_options": [
+      "завершил корабельную вахту"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ танцевать\\.\\b",
+    "styled_options": [
+      "пора трясти костями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ я\\ отдыхал\\b",
+    "styled_options": [
+      "ночью я отдыхал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ в\\ баре\\b",
+    "styled_options": [
+      "иду в тавернае arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ готовлю\\b",
+    "styled_options": [
+      "днём колдую в камбузе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпью\\ воду\\b",
+    "styled_options": [
+      "пью пресную воду, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсолнце\\b",
+    "styled_options": [
+      "светило жарит"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ убить\\b",
+    "styled_options": [
+      "хочу отправить на дно"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ ем\\b",
+    "styled_options": [
+      "вечером уплетаю провизию"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнет!\\b",
+    "styled_options": [
+      "ни за какие пиастры!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсильно\\ злюсь\\b",
+    "styled_options": [
+      "дьявольски злюсь, разрази меня гром!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ учусь\\b",
+    "styled_options": [
+      "завтра учусь йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсломался\\ документы\\b",
+    "styled_options": [
+      "сломался документы йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ я\\ учился\\b",
+    "styled_options": [
+      "днём я учился йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bскачиваю\\ файлы\\b",
+    "styled_options": [
+      "получаю морскую почту, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bрад\\ тебя\\ видеть\\b",
+    "styled_options": [
+      "рад видеть тебя"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ горбатый\\b",
+    "styled_options": [
+      "он как погнутая мачта"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ хочу\\ пить\\b",
+    "styled_options": [
+      "вечером жажда замучила"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bмного\\ денег\\b",
+    "styled_options": [
+      "пиастров полные сундуки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ как\\ поживаешь\\?\\b",
+    "styled_options": [
+      "утром как поживаешь, старина?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ я\\ готовил\\b",
+    "styled_options": [
+      "завтра я готовил йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиграю\\ онлайн\\b",
+    "styled_options": [
+      "веду морские баталии"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсобираюсь\\ готовить\\b",
+    "styled_options": [
+      "собираюсь готовить"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bветер\\b",
+    "styled_options": [
+      "ветер в снастях свистит, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ читал\\b",
+    "styled_options": [
+      "днём читал йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ уставший\\ день\\b",
+    "styled_options": [
+      "сегодня уставший день"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпланирую\\ ключи\\b",
+    "styled_options": [
+      "планирую ключи"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнужно\\ отдыхать\\b",
+    "styled_options": [
+      "нужно отдыхать arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ я\\ гулял\\b",
+    "styled_options": [
+      "завтра я гулял"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ привет!\\b",
+    "styled_options": [
+      "днём йо-хо-хо"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ как\\ поживаешь\\?\\b",
+    "styled_options": [
+      "вечером как поживаешь, старина?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ покупать\\ что\\-либо\\b",
+    "styled_options": [
+      "пора метать пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсмотрю\\ телевизор\\b",
+    "styled_options": [
+      "наблюдаю театр теней"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкуда\\ идёшь\\?\\b",
+    "styled_options": [
+      "куда держишь курс, старина?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовил\\ документы\\b",
+    "styled_options": [
+      "готовил документы йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпоссорился\\ с\\ женой\\b",
+    "styled_options": [
+      "разругался с подругой жизни!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ хочу\\ пить\\b",
+    "styled_options": [
+      "сегодня жажда замучила"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ работаю\\b",
+    "styled_options": [
+      "сегодня несу вахту"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bснег\\ падает\\b",
+    "styled_options": [
+      "белые хлопья летят"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ молоко\\b",
+    "styled_options": [
+      "покупаю козье молоко йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bздорово!\\b",
+    "styled_options": [
+      "попутный ветер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовлю\\ ужин\\b",
+    "styled_options": [
+      "колдую в камбузе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bслегка\\ рад\\b",
+    "styled_options": [
+      "чуток рад, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ молодой!\\b",
+    "styled_options": [
+      "как юнга в первом плаванье"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ устал\\b",
+    "styled_options": [
+      "вчера силы на исходе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпил\\ ключи\\b",
+    "styled_options": [
+      "пил ключи"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ грустно\\b",
+    "styled_options": [
+      "днём тоска морская одолела"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bбосс\\ злой\\b",
+    "styled_options": [
+      "капитан разгневан"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ пойдём\\ гулять\\b",
+    "styled_options": [
+      "днём отправимся в плавание"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bскучно\\b",
+    "styled_options": [
+      "тоскливо на душе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bжду\\ коллегу\\b",
+    "styled_options": [
+      "жду коллегу"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bна\\ улице\\ дождь\\b",
+    "styled_options": [
+      "на улице дождь йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ в\\ кухня\\b",
+    "styled_options": [
+      "иду в камбуз"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ яростно\\ ругаться\\b",
+    "styled_options": [
+      "иду палить из всех пушек"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ домой\\b",
+    "styled_options": [
+      "иду домой"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ веселиться\\b",
+    "styled_options": [
+      "хочу поднять весёлого роджера"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовил\\ кошелёк\\b",
+    "styled_options": [
+      "готовил кошелёк arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ изменить\\b",
+    "styled_options": [
+      "иду дать лево руля"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ я\\ учился\\b",
+    "styled_options": [
+      "завтра я учился arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ честный!\\b",
+    "styled_options": [
+      "как настоящий джентльмен удачи"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпью\\ молоко\\b",
+    "styled_options": [
+      "пью козье молоко"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ быстрый\\b",
+    "styled_options": [
+      "он как одноногий сильвер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнужно\\ покупать\\b",
+    "styled_options": [
+      "нужно покупать"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ гуляю\\b",
+    "styled_options": [
+      "утром брожу по палубе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ я\\ отдыхал\\b",
+    "styled_options": [
+      "вечером я отдыхал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкупил\\ телефон\\b",
+    "styled_options": [
+      "купил хронометр"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвстретился\\ с\\ учителем\\b",
+    "styled_options": [
+      "встретился с учителем"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ сдаться\\b",
+    "styled_options": [
+      "пора поднять белый флаг"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсмотрю\\ фильм\\b",
+    "styled_options": [
+      "наблюдаю театр теней"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bочень\\ рад\\b",
+    "styled_options": [
+      "чертовски рад"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдождь\\ идёт\\b",
+    "styled_options": [
+      "небесная артиллерия палит!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ чай\\b",
+    "styled_options": [
+      "покупаю травяной отвар"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bужинаю\\ с\\ семьёй\\b",
+    "styled_options": [
+      "ужинаю с семьёй, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ до\\ свидания\\b",
+    "styled_options": [
+      "сегодня попутного ветра, старый корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнужны\\ товарищ\\b",
+    "styled_options": [
+      "нужны старый пройдоха"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ изменять\\b",
+    "styled_options": [
+      "иду поддать лево руля"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ сплю\\b",
+    "styled_options": [
+      "завтра вешаю чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bжду\\ родителей\\b",
+    "styled_options": [
+      "жду родителей"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхорошо\\ себя\\ чувствую\\b",
+    "styled_options": [
+      "в отличной форме"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдождь\\ вечером\\b",
+    "styled_options": [
+      "дождь вечером, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ обед\\b",
+    "styled_options": [
+      "хочу дневная провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bчувствую\\ себя\\ уставшим\\b",
+    "styled_options": [
+      "чувствую себя уставшим"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ купаться\\b",
+    "styled_options": [
+      "иду просаливать кости"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bслегка\\ волнуюсь\\b",
+    "styled_options": [
+      "чуток волнуюсь, корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ болтливый\\b",
+    "styled_options": [
+      "этот парень как пьяный боцман"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bклассно!\\b",
+    "styled_options": [
+      "по курсу, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсильно\\ рад\\b",
+    "styled_options": [
+      "дьявольски рад, разрази меня гром!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ за\\ покупками\\b",
+    "styled_options": [
+      "отправляюсь торговать"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ хитрый\\b",
+    "styled_options": [
+      "он как попугай флинта"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bочень\\ злюсь\\b",
+    "styled_options": [
+      "чертовски злюсь йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ танцевать\\b",
+    "styled_options": [
+      "иду трясти костями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсильно\\ грущу\\b",
+    "styled_options": [
+      "дьявольски грущу, корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ убить\\b",
+    "styled_options": [
+      "пора отправить на дно"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ в\\ магазин\\b",
+    "styled_options": [
+      "направляюсь в торговую лавку"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bфотографирую\\b",
+    "styled_options": [
+      "запечатлеваю морские виды"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bем\\ кофе\\b",
+    "styled_options": [
+      "ем горячий напиток йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bмало\\ времени\\b",
+    "styled_options": [
+      "мало времени йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ сдаться\\b",
+    "styled_options": [
+      "хочу поднять белый флаг"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ высокий\\b",
+    "styled_options": [
+      "этот парень как бом-брамсель"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ счастливый\\ день\\b",
+    "styled_options": [
+      "сегодня счастливый день"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ я\\ отдыхал\\b",
+    "styled_options": [
+      "сегодня я отдыхал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bодолжи\\ денег\\b",
+    "styled_options": [
+      "дели пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bчитаю\\ новости\\b",
+    "styled_options": [
+      "изучаю морские сводки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ вода\\b",
+    "styled_options": [
+      "покупаю пресная вода йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ иду\\ спать\\b",
+    "styled_options": [
+      "утром иду вешать чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовлю\\ обед\\b",
+    "styled_options": [
+      "готовлю дневная провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхолодно\\b",
+    "styled_options": [
+      "студёно"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bверну\\ деньги\\b",
+    "styled_options": [
+      "пиастры отдам"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ читаю\\b",
+    "styled_options": [
+      "вечером изучаю корабельные журналы"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ покупал\\b",
+    "styled_options": [
+      "вечером покупал йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ готовлю\\b",
+    "styled_options": [
+      "сегодня колдую в камбузе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ неопытный!\\b",
+    "styled_options": [
+      "как юнга в первом плаваньи"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ скучно\\b",
+    "styled_options": [
+      "вчера тоскливо на душе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ весёлое\\ настроение\\b",
+    "styled_options": [
+      "вчера поднял весёлого роджера"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ молчаливый\\b",
+    "styled_options": [
+      "он как мертвец, охраняющий клад"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ смотрю\\ телевизор\\b",
+    "styled_options": [
+      "вчера наблюдаю театр теней"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ болею\\b",
+    "styled_options": [
+      "утром хвораю"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bскучаю\\ по\\ семье\\b",
+    "styled_options": [
+      "тоскую по команде"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bоткуда\\ ты\\?\\b",
+    "styled_options": [
+      "откуда твой корвет, морской волк?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ иду\\ спать\\b",
+    "styled_options": [
+      "днём иду вешать чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ смелый!\\b",
+    "styled_options": [
+      "как искатель сокровищ"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпонятно\\b",
+    "styled_options": [
+      "ясно как день"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bправильно\\b",
+    "styled_options": [
+      "в точку"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ честный\\b",
+    "styled_options": [
+      "она как настоящий джентльмен удачи"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bрисую\\b",
+    "styled_options": [
+      "создаю морские картины"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ что\\ делаешь\\?\\b",
+    "styled_options": [
+      "завтра чем занимаешься, морской волк?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхорошая\\ погода\\b",
+    "styled_options": [
+      "отличный попутный ветер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнемного\\ грущу\\b",
+    "styled_options": [
+      "слегка грущу"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ до\\ свидания\\b",
+    "styled_options": [
+      "вчера попутного ветра, старый корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ смотрю\\ телевизор\\b",
+    "styled_options": [
+      "ночью наблюдаю театр теней"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ старый\\b",
+    "styled_options": [
+      "этот парень как пиратские анекдоты"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ убираю\\b",
+    "styled_options": [
+      "ночью навожу порядок"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ богатый\\b",
+    "styled_options": [
+      "этот парень как губернатор ямайки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ гуляю\\b",
+    "styled_options": [
+      "сегодня брожу по палубе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпланирую\\ кошелёк\\b",
+    "styled_options": [
+      "планирую кошелёк, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпил\\ телефон\\b",
+    "styled_options": [
+      "пил хронометр йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ отдыхаю\\b",
+    "styled_options": [
+      "завтра отдыхаю"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ привет!\\b",
+    "styled_options": [
+      "завтра йо-хо-хо"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ есть\\b",
+    "styled_options": [
+      "провизию бы найти"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bговорил\\ с\\ родителями\\b",
+    "styled_options": [
+      "говорил с родителями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ грустно\\b",
+    "styled_options": [
+      "завтра тоска морская одолела"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ привет!\\b",
+    "styled_options": [
+      "вчера йо-хо-хо"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bможет\\ быть\\b",
+    "styled_options": [
+      "поглядим"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпотерял\\ очки\\b",
+    "styled_options": [
+      "потерял очки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ пойдём\\ гулять\\b",
+    "styled_options": [
+      "завтра отправимся в плавание"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ скучно\\b",
+    "styled_options": [
+      "завтра тоскливо на душе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bжарко\\ очень\\b",
+    "styled_options": [
+      "пекло адское"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ до\\ свидания\\b",
+    "styled_options": [
+      "утром попутного ветра, старый корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bустал\\ от\\ работы\\b",
+    "styled_options": [
+      "измотался от корабельной службы!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ молоко\\b",
+    "styled_options": [
+      "хочу козье молоко"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ убираю\\b",
+    "styled_options": [
+      "утром навожу порядок"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ новую\\ машину\\b",
+    "styled_options": [
+      "покупаю новую корвет, корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bжарко\\b",
+    "styled_options": [
+      "пекло адское"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдавно\\ не\\ виделись\\b",
+    "styled_options": [
+      "давно корабли не встречались"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ покупать\\b",
+    "styled_options": [
+      "иду бренчать золотишком; метать пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлюблю\\ вода\\b",
+    "styled_options": [
+      "люблю пресная вода"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ иду\\ спать\\b",
+    "styled_options": [
+      "вечером иду вешать чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлюблю\\ ужин\\b",
+    "styled_options": [
+      "люблю вечерняя провизия йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ убить\\b",
+    "styled_options": [
+      "иду отправить на дно"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлюблю\\ рыба\\b",
+    "styled_options": [
+      "люблю морская добыча arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпью\\ кофе\\b",
+    "styled_options": [
+      "пью горячий напиток arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ отдыхать\\b",
+    "styled_options": [
+      "пора отдыхать"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнастроение\\ яркое\\b",
+    "styled_options": [
+      "настроение яркое"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bродился\\ ребёнок\\b",
+    "styled_options": [
+      "пополнение в команде"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ устал\\b",
+    "styled_options": [
+      "днём силы на исходе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ я\\ спал\\b",
+    "styled_options": [
+      "вчера я спал arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ хочу\\ есть\\b",
+    "styled_options": [
+      "утром провизию бы найти"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bужас!\\b",
+    "styled_options": [
+      "кальмарьи кишки, что творится!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bчитаю\\ книгу\\b",
+    "styled_options": [
+      "изучаю корабельный журнал!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ хвастаться\\b",
+    "styled_options": [
+      "хочу меряться кладами"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдождь\\ недавно\\b",
+    "styled_options": [
+      "дождь нпровизиявно, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдень\\ рождения\\b",
+    "styled_options": [
+      "празднуем спуск на воду!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ гуляю\\b",
+    "styled_options": [
+      "завтра брожу по палубе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ щедрый\\b",
+    "styled_options": [
+      "она как кок на раздаче"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ напиваться\\b",
+    "styled_options": [
+      "иду мутить шторм в трюме"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ я\\ убирал\\b",
+    "styled_options": [
+      "утром я убирал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ работаю\\b",
+    "styled_options": [
+      "днём несу вахту"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ грустно\\b",
+    "styled_options": [
+      "утром тоска морская одолела"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ весёлое\\ настроение\\b",
+    "styled_options": [
+      "завтра поднял весёлого роджера"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bтанцую\\b",
+    "styled_options": [
+      "отплясываю матросский танец"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовлю\\ кофе\\b",
+    "styled_options": [
+      "готовлю горячий напиток arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпланирую\\ телефон\\b",
+    "styled_options": [
+      "планирую хронометр"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ учиться\\b",
+    "styled_options": [
+      "хочу учиться"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкупил\\ ключи\\b",
+    "styled_options": [
+      "купил ключи"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ я\\ отдыхал\\b",
+    "styled_options": [
+      "завтра я отдыхал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ как\\ поживаешь\\?\\b",
+    "styled_options": [
+      "сегодня как поживаешь, старина?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ яростно\\ ругаться\\b",
+    "styled_options": [
+      "хочу палить из всех пушек"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнужны\\ комната\\b",
+    "styled_options": [
+      "нужны каюта"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ гуляю\\b",
+    "styled_options": [
+      "вечером брожу по палубе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ онлайн\\b",
+    "styled_options": [
+      "торгую через морскую почту"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bникогда!\\b",
+    "styled_options": [
+      "никогда в жизни"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ гуляю\\b",
+    "styled_options": [
+      "днём брожу по палубе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bклассная\\ музыка\\b",
+    "styled_options": [
+      "отличные матросские песни"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ танцевать\\.\\b",
+    "styled_options": [
+      "иду трясти костями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ пешком\\b",
+    "styled_options": [
+      "иду своим ходом"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bслушаю\\ любимую\\ музыку\\b",
+    "styled_options": [
+      "слушаю любимую матросские песни"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовлю\\ завтрак\\b",
+    "styled_options": [
+      "готовлю утренняя провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ скучно\\b",
+    "styled_options": [
+      "днём тоскливо на душе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ я\\ гулял\\b",
+    "styled_options": [
+      "ночью я гулял arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bгде\\ ты\\?\\b",
+    "styled_options": [
+      "где твой корвет бросил якорь?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ напиваться\\b",
+    "styled_options": [
+      "хочу мутить шторм в трюме"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ умереть\\b",
+    "styled_options": [
+      "иду отправиться кормить рыб"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ умный\\b",
+    "styled_options": [
+      "она как морская грамота"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bветер\\ тёплый\\b",
+    "styled_options": [
+      "ветер тёплый, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ на\\ работу\\b",
+    "styled_options": [
+      "направляюсь в капитанскую каюту"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ ем\\b",
+    "styled_options": [
+      "днём уплетаю провизию"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ голодный\\ день\\b",
+    "styled_options": [
+      "сегодня голодный день йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ горбатый!\\b",
+    "styled_options": [
+      "как погнутая мачта"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнет\\ денег\\b",
+    "styled_options": [
+      "пиастры кончились"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bтрачу\\ деньги\\b",
+    "styled_options": [
+      "тратю пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bскучаю\\ по\\ соседу\\b",
+    "styled_options": [
+      "скучаю по соседу"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ кофе\\b",
+    "styled_options": [
+      "хочу горячий напиток"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсломался\\ ключи\\b",
+    "styled_options": [
+      "сломался ключи"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпью\\ обед\\b",
+    "styled_options": [
+      "пью дневная провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bчто\\ нового\\?\\b",
+    "styled_options": [
+      "что нового в морях, корсар?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ чай\\b",
+    "styled_options": [
+      "хочу травяной отвар"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bя\\ очень\\ злой\\b",
+    "styled_options": [
+      "я очень злой arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ танцевать\\b",
+    "styled_options": [
+      "пора трясти костями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ работаю\\b",
+    "styled_options": [
+      "вечером несу вахту"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ сплю\\b",
+    "styled_options": [
+      "сегодня вешаю чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзабыл\\ часы\\b",
+    "styled_options": [
+      "забыл часы йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ уйти\\b",
+    "styled_options": [
+      "хочу сняться с якоря"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bмало\\ работы\\b",
+    "styled_options": [
+      "штиль в делах"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ я\\ спал\\b",
+    "styled_options": [
+      "завтра я спал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ еду\\b",
+    "styled_options": [
+      "закупаю провизию"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ работать\\b",
+    "styled_options": [
+      "пора делоть"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзлюсь\\b",
+    "styled_options": [
+      "гнев в груди бушует"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ продукты\\b",
+    "styled_options": [
+      "закупаю провизию"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ быстрый\\b",
+    "styled_options": [
+      "этот парень как одноногий сильвер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсмотрю\\ видео\\b",
+    "styled_options": [
+      "наблюдаю морские картины"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bубираю\\ кухня\\b",
+    "styled_options": [
+      "убираю камбуз"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ убираю\\b",
+    "styled_options": [
+      "завтра навожу порядок"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ я\\ спал\\b",
+    "styled_options": [
+      "ночью я спал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ отдыхаю\\b",
+    "styled_options": [
+      "утром предаюсь морской неге"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ я\\ убирал\\b",
+    "styled_options": [
+      "днём я убирал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ весёлое\\ настроение\\b",
+    "styled_options": [
+      "сегодня поднял весёлого роджера"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ я\\ убирал\\b",
+    "styled_options": [
+      "вчера я убирал arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпривет,\\ как\\ дела\\?\\b",
+    "styled_options": [
+      "йо-хо-хо! как житуха, морской дьявол?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bснег\\b",
+    "styled_options": [
+      "белые хлопья летят"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ готовлю\\b",
+    "styled_options": [
+      "завтра готовлю йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ смотрю\\ телевизор\\b",
+    "styled_options": [
+      "днём наблюдаю театр теней"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bочень\\ хочется\\ пить\\b",
+    "styled_options": [
+      "пора промочить горло"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bопаздываю\\b",
+    "styled_options": [
+      "тороплюсь"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсогласен\\b",
+    "styled_options": [
+      "поддерживаю курс, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ отдыхаю\\b",
+    "styled_options": [
+      "сегодня предаюсь морской неге"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсобираюсь\\ убирать\\b",
+    "styled_options": [
+      "собираюсь убирать"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bуволился\\b",
+    "styled_options": [
+      "покинул корабль, старый корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bем\\ ужин\\b",
+    "styled_options": [
+      "ем вечерняя провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ идти\\ куда\\-то\\b",
+    "styled_options": [
+      "пора направлять свой корвет"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ покупать\\ что\\-либо\\b",
+    "styled_options": [
+      "иду метать пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ дырявый!\\b",
+    "styled_options": [
+      "как пиратская посудина"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ учусь\\b",
+    "styled_options": [
+      "утром постигаю морскую науку"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bубираю\\ комната\\b",
+    "styled_options": [
+      "убираю каюта"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ танцевать\\.\\b",
+    "styled_options": [
+      "хочу трясти костями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bничего\\ себе!\\b",
+    "styled_options": [
+      "свистать всех наверх!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнавещаю\\ родителей\\b",
+    "styled_options": [
+      "наведываюсь к старшим по рангу!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bмою\\ посуду\\b",
+    "styled_options": [
+      "драю корабельную утварь!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ читал\\b",
+    "styled_options": [
+      "ночью читал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bслушаю\\ подкаст\\b",
+    "styled_options": [
+      "внимаю морским рассказам"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ пойдём\\ гулять\\b",
+    "styled_options": [
+      "сегодня отправимся в плавание"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ покупал\\b",
+    "styled_options": [
+      "вчера покупал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ драться\\b",
+    "styled_options": [
+      "иду сойтись якорями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ мясо\\b",
+    "styled_options": [
+      "покупаю говядина arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ гуляю\\b",
+    "styled_options": [
+      "вчера брожу по палубе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ скучно\\b",
+    "styled_options": [
+      "сегодня тоскливо на душе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bплохое\\ настроение\\b",
+    "styled_options": [
+      "плохое настроение"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bставлю\\ лайк\\b",
+    "styled_options": [
+      "одобряю морской печатью"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ что\\ делаешь\\?\\b",
+    "styled_options": [
+      "утром чем занимаешься, морской волк?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнужны\\ кухня\\b",
+    "styled_options": [
+      "нужны камбуз"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпроклятье!\\b",
+    "styled_options": [
+      "разрази меня гром!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ сплю\\b",
+    "styled_options": [
+      "утром вешаю чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкак\\ поживаешь\\?\\b",
+    "styled_options": [
+      "как поживаешь, старина?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ сбежать\\b",
+    "styled_options": [
+      "хочу сняться с якоря"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ привет!\\b",
+    "styled_options": [
+      "утром йо-хо-хо"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bчёрт!\\b",
+    "styled_options": [
+      "тысяча чертей!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bколлеги\\ помогают\\b",
+    "styled_options": [
+      "корсары выручают"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпью\\ пиво\\b",
+    "styled_options": [
+      "пью ром, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ веселиться\\b",
+    "styled_options": [
+      "иду поднять весёлого роджера"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bерунда!\\b",
+    "styled_options": [
+      "чушь собачья, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ хочу\\ пить\\b",
+    "styled_options": [
+      "завтра жажда замучила"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ высокий\\b",
+    "styled_options": [
+      "он как бом-брамсель"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ я\\ готовил\\b",
+    "styled_options": [
+      "сегодня я готовил arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ что\\ делаешь\\?\\b",
+    "styled_options": [
+      "сегодня чем занимаешься, морской волк?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвстретил\\ друга\\b",
+    "styled_options": [
+      "встретил старого корсара"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсыт\\b",
+    "styled_options": [
+      "брюхо полное"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ высокий\\b",
+    "styled_options": [
+      "она как бом-брамсель"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ дырявый\\b",
+    "styled_options": [
+      "этот парень как пиратская посудина"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовлю\\ рыба\\b",
+    "styled_options": [
+      "готовлю морская добыча"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bчувствую\\ себя\\ нормально\\b",
+    "styled_options": [
+      "чувствую себя нормально йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ что\\ делаешь\\?\\b",
+    "styled_options": [
+      "днём чем занимаешься, морской волк?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ сплю\\b",
+    "styled_options": [
+      "вчера вешаю чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ громкий\\b",
+    "styled_options": [
+      "он как корабельная пушка"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ я\\ отдыхал\\b",
+    "styled_options": [
+      "вчера я отдыхал arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ до\\ свидания\\b",
+    "styled_options": [
+      "днём попутного ветра, старый корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ кофе\\b",
+    "styled_options": [
+      "покупаю горячий напиток"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпутешествую\\b",
+    "styled_options": [
+      "в плавании"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ убирал\\b",
+    "styled_options": [
+      "утром убирал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ старый\\b",
+    "styled_options": [
+      "он как пиратские анекдоты"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпойду\\ в\\ кино\\b",
+    "styled_options": [
+      "пойду в кино"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпою\\b",
+    "styled_options": [
+      "исполняю морские песни"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bрад\\b",
+    "styled_options": [
+      "душа поёт"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ в\\ кафе\\b",
+    "styled_options": [
+      "иду в таверна"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bне\\ слышу\\b",
+    "styled_options": [
+      "уши заложило"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bрано\\b",
+    "styled_options": [
+      "слишком рано поднял паруса, старина!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bмечтаю\\ о\\ машине\\b",
+    "styled_options": [
+      "мечтаю о машине arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ хочу\\ есть\\b",
+    "styled_options": [
+      "днём провизию бы найти"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпотерял\\ документы\\b",
+    "styled_options": [
+      "потерял документы, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ в\\ спортзал\\b",
+    "styled_options": [
+      "отправляюсь на абордажную тренировку"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bтепло\\b",
+    "styled_options": [
+      "благодатное тепло"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ смелый\\b",
+    "styled_options": [
+      "она как искатель сокровищ"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bеду\\ на\\ автобусе\\b",
+    "styled_options": [
+      "плыву на корвете"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпью\\ ужин\\b",
+    "styled_options": [
+      "пью вечерняя провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bне\\ понимаю\\b",
+    "styled_options": [
+      "темна вода во облацех"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bневкусно\\b",
+    "styled_options": [
+      "дрянная провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзаряжаю\\ телефон\\b",
+    "styled_options": [
+      "заряжаю хронометр"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсолнце\\ яркое\\b",
+    "styled_options": [
+      "солнце яркое йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ я\\ гулял\\b",
+    "styled_options": [
+      "вечером я гулял"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнужны\\ деньги\\b",
+    "styled_options": [
+      "нужны пиастры, дублоны, золотишко"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ изменить\\b",
+    "styled_options": [
+      "хочу дать лево руля"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ до\\ свидания\\b",
+    "styled_options": [
+      "вечером попутного ветра, старый корсар!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ пьяный!\\b",
+    "styled_options": [
+      "как бочка с ромом"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсколько\\ это\\ стоит\\?\\b",
+    "styled_options": [
+      "сколько пиастров просят, тысяча чертей?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ грустно\\b",
+    "styled_options": [
+      "сегодня тоска морская одолела"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ ем\\b",
+    "styled_options": [
+      "ночью уплетаю провизию"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bем\\ рыба\\b",
+    "styled_options": [
+      "ем морская добыча"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bв\\ отпуске\\b",
+    "styled_options": [
+      "на каботаже, морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ я\\ отдыхал\\b",
+    "styled_options": [
+      "днём я отдыхал arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ гуляю\\b",
+    "styled_options": [
+      "ночью брожу по палубе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bобновляю\\ приложение\\b",
+    "styled_options": [
+      "модернизирую навигационный прибор"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bустал\\?\\ \\-\\ очень\\b",
+    "styled_options": [
+      "силы на исходе? - чертовски"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвесёлое\\ настроение\\b",
+    "styled_options": [
+      "поднял весёлого роджера"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлюблю\\ хлеб\\b",
+    "styled_options": [
+      "люблю сухари йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bслушаю\\ музыку\\b",
+    "styled_options": [
+      "внимаю матросским песням"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвот\\ это\\ да!\\b",
+    "styled_options": [
+      "шверт мне в бок!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ я\\ готовил\\b",
+    "styled_options": [
+      "днём я готовил йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ изменять\\b",
+    "styled_options": [
+      "пора поддать лево руля"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bне\\ верю\\b",
+    "styled_options": [
+      "сомневаюсь"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bwi\\-fi\\ не\\ работает\\b",
+    "styled_options": [
+      "морская почта не ходит"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bочень\\ грущу\\b",
+    "styled_options": [
+      "чертовски грущу"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсильно\\ устал\\b",
+    "styled_options": [
+      "дьявольски устал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ устал\\b",
+    "styled_options": [
+      "утром силы на исходе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bочень\\ голоден\\b",
+    "styled_options": [
+      "чертовски голоден, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ убирал\\b",
+    "styled_options": [
+      "вечером убирал"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ пьяный\\b",
+    "styled_options": [
+      "она как бочка с ромом"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bветер\\ приятный\\b",
+    "styled_options": [
+      "ветер приятный йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ изменить\\b",
+    "styled_options": [
+      "пора дать лево руля"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ читаю\\b",
+    "styled_options": [
+      "днём изучаю корабельные журналы"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготов\\?\\ \\-\\ почти\\b",
+    "styled_options": [
+      "к отплытию готов? - практически"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bем\\ пиво\\b",
+    "styled_options": [
+      "ем ром"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ яростно\\ ругаться\\b",
+    "styled_options": [
+      "пора палить из всех пушек"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнужно\\ готовить\\b",
+    "styled_options": [
+      "нужно готовить arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ пить\\b",
+    "styled_options": [
+      "иду промочить горло"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bскучаю\\ по\\ учителю\\b",
+    "styled_options": [
+      "скучаю по учителю"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bспокоен\\b",
+    "styled_options": [
+      "душа в штиле, морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ я\\ учился\\b",
+    "styled_options": [
+      "вечером я учился"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bем\\ молоко\\b",
+    "styled_options": [
+      "ем козье молоко"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ поспать\\ немного\\b",
+    "styled_options": [
+      "хочу вешать чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ я\\ гулял\\b",
+    "styled_options": [
+      "вчера я гулял"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bходил\\ к\\ врачу\\b",
+    "styled_options": [
+      "навещал корабельного лекаря"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ я\\ гулял\\b",
+    "styled_options": [
+      "днём я гулял arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bни\\ за\\ что!\\b",
+    "styled_options": [
+      "ни за какие пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bплохая\\ погода\\b",
+    "styled_options": [
+      "шторм на горизонте"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ трусливый!\\b",
+    "styled_options": [
+      "как корабельная крыса"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ смотрю\\ телевизор\\b",
+    "styled_options": [
+      "утром наблюдаю театр теней"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсильно\\ волнуюсь\\b",
+    "styled_options": [
+      "дьявольски волнуюсь"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ скучно\\b",
+    "styled_options": [
+      "вечером тоскливо на душе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bветер\\ сильный\\b",
+    "styled_options": [
+      "ветер сильный, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзачем\\ это\\ нужно\\?\\b",
+    "styled_options": [
+      "к чему это, йо-хо-хо?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ честный\\b",
+    "styled_options": [
+      "он как настоящий джентльмен удачи"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ пиво\\b",
+    "styled_options": [
+      "хочу ром arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bплохо\\ себя\\ чувствую\\b",
+    "styled_options": [
+      "не в порядке"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлечу\\ на\\ самолёте\\b",
+    "styled_options": [
+      "лечу на морском судне"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсчастлив\\b",
+    "styled_options": [
+      "счастлив как пират с сокровищами"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ рыба\\b",
+    "styled_options": [
+      "покупаю морская добыча"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bем\\ мясо\\b",
+    "styled_options": [
+      "ем говядина arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ пиво\\b",
+    "styled_options": [
+      "покупаю ром"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсмеюсь\\b",
+    "styled_options": [
+      "заливаюсь морским смехом"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bне\\ согласен\\b",
+    "styled_options": [
+      "против течения иду"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ весёлое\\ настроение\\b",
+    "styled_options": [
+      "днём поднял весёлого роджера"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ быстрый\\b",
+    "styled_options": [
+      "она как одноногий сильвер"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bделаю\\ селфи\\b",
+    "styled_options": [
+      "запечатлеваю свой облик"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ работаю\\b",
+    "styled_options": [
+      "утром несу вахту"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкак\\ дела\\?\\b",
+    "styled_options": [
+      "как житуха, старый волк?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bне\\ знаю\\b",
+    "styled_options": [
+      "морской туман в голове"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхорошее\\ настроение\\b",
+    "styled_options": [
+      "поднял весёлого роджера"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ я\\ учился\\b",
+    "styled_options": [
+      "утром я учился"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bустал\\b",
+    "styled_options": [
+      "силы на исходе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ умный\\b",
+    "styled_options": [
+      "он как морская грамота"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ худой\\b",
+    "styled_options": [
+      "он как летучий голландец"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ ем\\b",
+    "styled_options": [
+      "вчера уплетаю провизию"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bжду\\ врача\\b",
+    "styled_options": [
+      "жду лекарьа"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ идти\\ куда\\-то\\b",
+    "styled_options": [
+      "хочу направлять свой корвет"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсолнце\\ красивое\\b",
+    "styled_options": [
+      "солнце красивое arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлюблю\\ молоко\\b",
+    "styled_options": [
+      "люблю козье молоко"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовлю\\ еду\\b",
+    "styled_options": [
+      "колдую в камбузе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ я\\ убирал\\b",
+    "styled_options": [
+      "завтра я убирал йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнужны\\ повар\\b",
+    "styled_options": [
+      "нужны кок"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ драться\\b",
+    "styled_options": [
+      "хочу сойтись якорями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ устал\\b",
+    "styled_options": [
+      "сегодня силы на исходе"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвовремя\\b",
+    "styled_options": [
+      "в срок прибыл"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ что\\ делаешь\\?\\b",
+    "styled_options": [
+      "вечером чем занимаешься, морской волк?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ готовил\\b",
+    "styled_options": [
+      "днём готовил"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bотдыхаю\\b",
+    "styled_options": [
+      "предаюсь морской неге"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ я\\ работал\\b",
+    "styled_options": [
+      "завтра я делол"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнесчастлив\\b",
+    "styled_options": [
+      "горе морское"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bне\\ хочу\\b",
+    "styled_options": [
+      "не буду"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовлю\\ пиво\\b",
+    "styled_options": [
+      "готовлю ром, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ хочу\\ есть\\b",
+    "styled_options": [
+      "завтра провизию бы найти"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ убираю\\b",
+    "styled_options": [
+      "сегодня навожу порядок"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bгде\\ моя\\ часы\\?\\b",
+    "styled_options": [
+      "где моя хронометр, arr?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bда!\\b",
+    "styled_options": [
+      "arr, именно так!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнемного\\ рад\\b",
+    "styled_options": [
+      "слегка рад"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ веселиться\\b",
+    "styled_options": [
+      "пора поднять весёлого роджера"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ идти\\b",
+    "styled_options": [
+      "иду направлять корвет (шхуну)"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bон\\ очень\\ пьяный\\b",
+    "styled_options": [
+      "он как бочка с ромом"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпотерял\\ деньги\\b",
+    "styled_options": [
+      "потерял пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bне\\ получается\\b",
+    "styled_options": [
+      "не выходит"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупал\\ новую\\ одежду\\b",
+    "styled_options": [
+      "бренчал золотишком за новое обмундирование!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bопаздываю\\ на\\ работу\\b",
+    "styled_options": [
+      "тороплюсь в капитанскую каюту!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ в\\ товарищ\\b",
+    "styled_options": [
+      "иду в старый пройдоха"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bгде\\ моя\\ деньги\\?\\b",
+    "styled_options": [
+      "где моя пиастры, arr?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовлю\\ хлеб\\b",
+    "styled_options": [
+      "готовлю сухари arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлюблю\\ обед\\b",
+    "styled_options": [
+      "люблю дневная провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпривет!\\b",
+    "styled_options": [
+      "йо-хо-хо"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ дома\\b",
+    "styled_options": [
+      "иду каютаа йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлюблю\\ завтрак\\b",
+    "styled_options": [
+      "люблю утренняя провизия"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ я\\ готовил\\b",
+    "styled_options": [
+      "ночью я готовил"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ ем\\b",
+    "styled_options": [
+      "утром уплетаю провизию"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ хитрый!\\b",
+    "styled_options": [
+      "как попугай старого флинта"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ читаю\\b",
+    "styled_options": [
+      "сегодня изучаю корабельные журналы"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ громкий!\\b",
+    "styled_options": [
+      "как корабельная пушка"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bветер\\ холодный\\b",
+    "styled_options": [
+      "ветер холодный"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнужно\\ убирать\\b",
+    "styled_options": [
+      "нужно убирать йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bскучаю\\ по\\ другу\\b",
+    "styled_options": [
+      "скучаю по корсару"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ болтливый\\b",
+    "styled_options": [
+      "она как пьяный боцман"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпора\\ сбежать\\b",
+    "styled_options": [
+      "пора сняться с якоря"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bплачу\\b",
+    "styled_options": [
+      "слёзы градом"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсолнце\\ холодное\\b",
+    "styled_options": [
+      "солнце холодное arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bжду\\ учителя\\b",
+    "styled_options": [
+      "жду учителя"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпланирую\\ очки\\b",
+    "styled_options": [
+      "планирую очки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхолодно\\ на\\ улице\\b",
+    "styled_options": [
+      "студёно"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзабыл\\ деньги\\b",
+    "styled_options": [
+      "забыл пиастры йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ сбежать\\b",
+    "styled_options": [
+      "иду сняться с якоря"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bого!\\b",
+    "styled_options": [
+      "разрази меня гром!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготов\\ драться\\b",
+    "styled_options": [
+      "готов сойтись якорями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bутром\\ читаю\\b",
+    "styled_options": [
+      "утром изучаю корабельные журналы"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bночью\\ отдыхаю\\b",
+    "styled_options": [
+      "ночью предаюсь морской неге"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bне\\ могу\\b",
+    "styled_options": [
+      "не в силах"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ учусь\\b",
+    "styled_options": [
+      "сегодня постигаю морскую науку"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкупил\\ очки\\b",
+    "styled_options": [
+      "купил очки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ громкий\\b",
+    "styled_options": [
+      "этот парень как корабельная пушка"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ как\\ поживаешь\\?\\b",
+    "styled_options": [
+      "днём как поживаешь, старина?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзабыл\\ ключи\\b",
+    "styled_options": [
+      "забыл ключи"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ читаю\\b",
+    "styled_options": [
+      "вчера изучаю корабельные журналы"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bслегка\\ грущу\\b",
+    "styled_options": [
+      "чуток грущу, старый морской волк!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bрасстались\\b",
+    "styled_options": [
+      "корабли разошлись в разные стороны!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакого\\ дьявола\\?\\b",
+    "styled_options": [
+      "заткнись и дай пройти!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bлюблю\\ пиво\\b",
+    "styled_options": [
+      "люблю ром йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпривет,\\ старина!\\b",
+    "styled_options": [
+      "йо-хо-хо, старый пройдоха!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ я\\ гулял\\b",
+    "styled_options": [
+      "сегодня я гулял йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bднём\\ учился\\b",
+    "styled_options": [
+      "днём учился йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ смелый\\b",
+    "styled_options": [
+      "этот парень как искатель сокровищ"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bготовлю\\ чай\\b",
+    "styled_options": [
+      "готовлю травяной отвар"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ зоркий\\b",
+    "styled_options": [
+      "этот парень как слепой пью"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпрекрасно!\\b",
+    "styled_options": [
+      "замечательно"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bнемного\\ злюсь\\b",
+    "styled_options": [
+      "слегка злюсь"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\ покупать\\b",
+    "styled_options": [
+      "хочу бренчать золотишком; метать пиастры"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпокупаю\\ хлеб\\b",
+    "styled_options": [
+      "покупаю сухари arr!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ работал\\b",
+    "styled_options": [
+      "вечером делол йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ уйти\\b",
+    "styled_options": [
+      "иду сняться с якоря"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bэтот\\ парень\\ горбатый\\b",
+    "styled_options": [
+      "этот парень как погнутая мачта"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bчувствую\\ себя\\ плохо\\b",
+    "styled_options": [
+      "чувствую себя плохо йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bустал\\ как\\ собака\\b",
+    "styled_options": [
+      "устал как после абордажа"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ иду\\ спать\\b",
+    "styled_options": [
+      "сегодня иду вешать чёрные метки"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвечером\\ убираю\\b",
+    "styled_options": [
+      "вечером навожу порядок"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bужасно!\\b",
+    "styled_options": [
+      "кошмар морской"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bона\\ такая\\ молчаливый\\b",
+    "styled_options": [
+      "она как мертвец, охраняющий клад"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ хочу\\ есть\\b",
+    "styled_options": [
+      "вчера провизию бы найти"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bкакой\\ умный!\\b",
+    "styled_options": [
+      "как морская грамота"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиду\\ в\\ повар\\b",
+    "styled_options": [
+      "иду в кок"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bмечтаю\\ о\\ работе\\b",
+    "styled_options": [
+      "мечтаю о работе йо-хо-хо!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвчера\\ болею\\b",
+    "styled_options": [
+      "вчера хвораю"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bиграю\\ в\\ игру\\b",
+    "styled_options": [
+      "провожу морское сражение!"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bзавтра\\ как\\ поживаешь\\?\\b",
+    "styled_options": [
+      "завтра как поживаешь, старина?"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bпью\\ мясо\\b",
+    "styled_options": [
+      "пью говядина"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bвстретился\\ с\\ родителями\\b",
+    "styled_options": [
+      "встретился с родителями"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bсегодня\\ болею\\b",
+    "styled_options": [
+      "сегодня хвораю"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bдождь\\ утром\\b",
+    "styled_options": [
+      "дождь утром"
+    ],
+    "type": "phrase"
+  },
+  {
+    "original_pattern": "\\bхочу\\b",
+    "styled_options": [
+      "буду",
+      "жажда"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bсебя\\b",
+    "styled_options": [
+      "отличной",
+      "в"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bчувствую\\b",
+    "styled_options": [
+      "порядке",
+      "форме"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bкафе\\b",
+    "styled_options": [
+      "таверна",
+      "таверну"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bденег\\b",
+    "styled_options": [
+      "пиастры",
+      "старина!",
+      "кончились"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bочень\\b",
+    "styled_options": [
+      "адское",
+      "пора",
+      "чертовски"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bколлеги\\b",
+    "styled_options": [
+      "корсары",
+      "отличная"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bпишу\\b",
+    "styled_options": [
+      "отправляю",
+      "общаюсь"
+    ],
+    "type": "word"
+  },
+  {
+    "original_pattern": "\\bеду\\b",
+    "styled_options": [
+      "провизию",
+      "плыву"
+    ],
+    "type": "word"
+  }
+]

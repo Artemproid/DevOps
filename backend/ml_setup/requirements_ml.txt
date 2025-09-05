@@ -1,0 +1,18 @@
+# ML зависимости для обучения модели
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.10.0
+accelerate>=0.20.0
+tensorboard>=2.13.0
+
+# Для работы с данными
+pandas>=1.5.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# Для сохранения модели
+safetensors>=0.3.0
+sentencepiece>=0.1.99
+
+# Опционально для GPU
+# nvidia-ml-py3  # мониторинг GPU
