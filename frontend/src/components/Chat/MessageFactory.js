@@ -7,12 +7,9 @@ import { Badge } from 'react-bootstrap';
 
 // Типы сообщений (синхронизировано с бэкендом)
 export const MessageType = {
-  REGULAR: "regular",
+  REGULAR: "normal",
   ASCII_ART: "ascii_art", 
-  PIRATE: "pirate",
-  SYSTEM: "system",
-  KNIGHT: "knight",
-  ROBOT: "robot"
+  SYSTEM: "system"
 };
 
 /**
@@ -23,8 +20,8 @@ export const detectMessageType = (content) => {
   const asciiPatterns = [
     /[╔╗╚╝═║┌┐└┘─│]/g,  // Рамки
     /[▄▀█▌▐]/g,         // Блоки
-    /[\/\\|_-]{3,}/g,   // Понижен порог с 5 до 3
-    /\s+[_\/\\|]{2,}/g, // ASCII символы с пробелами
+    /[/\\|_-]{3,}/g,   // Понижен порог с 5 до 3
+    /\s+[_/\\|]{2,}/g, // ASCII символы с пробелами
   ];
   
   // Проверяем на ASCII символы
@@ -41,13 +38,13 @@ export const detectMessageType = (content) => {
   const hasASCIILines = lines.some(line => {
     const trimmed = line.trim();
     // Если строка содержит много ASCII символов
-    const asciiSymbols = (trimmed.match(/[_\/\\|+\-=<>(){}[\]]/g) || []).length;
+    const asciiSymbols = (trimmed.match(/[_/\\|+\-=<>(){}[\]]/g) || []).length;
     return asciiSymbols >= 3 && trimmed.length > 3; // Понижен порог
   });
   
   // Если содержит характерные ASCII последовательности
-  const hasASCIISequences = /[_\/\\|-]{4,}/.test(content) || 
-                           /\s+[_\/\\|]{2,}\s+/.test(content);
+  const hasASCIISequences = /[_/\\|-]{4,}/.test(content) || 
+                           /\s+[_/\\|]{2,}\s+/.test(content);
   
   if (hasASCIIChars || hasASCIISequences || (hasMultipleLines && hasASCIILines)) {
     return MessageType.ASCII_ART;
@@ -57,12 +54,6 @@ export const detectMessageType = (content) => {
   const contentLower = content.toLowerCase().trim();
   if (contentLower.startsWith('🤖') || contentLower.startsWith('система:')) {
     return MessageType.SYSTEM;
-  }
-  
-  // Пиратские сообщения
-  const pirateWords = ['arr', 'ahoy', 'матей', 'корабль', 'сокровище', 'пират'];
-  if (pirateWords.some(word => contentLower.includes(word))) {
-    return MessageType.PIRATE;
   }
   
   return MessageType.REGULAR;
@@ -83,12 +74,6 @@ const BaseMessage = ({ message, isMyMessage, children }) => {
         return `${baseClasses} ascii-art`;
       case MessageType.SYSTEM:
         return `${baseClasses} system-message`;
-      case MessageType.PIRATE:
-        return `${baseClasses} pirate-message`;
-      case MessageType.KNIGHT:
-        return `${baseClasses} knight-message`;
-      case MessageType.ROBOT:
-        return `${baseClasses} robot-message`;
       default:
         return baseClasses;
     }
@@ -119,14 +104,8 @@ const MessageHeader = ({ message, isMyMessage }) => {
     switch (messageType) {
       case MessageType.ASCII_ART:
         return <Badge bg="secondary" style={{fontSize: '10px'}}>🎨 ASCII</Badge>;
-      case MessageType.PIRATE:
-        return <Badge bg="warning" style={{fontSize: '10px'}}>🏴‍☠️ Пират</Badge>;
       case MessageType.SYSTEM:
         return <Badge bg="info" style={{fontSize: '10px'}}>🤖 Система</Badge>;
-      case MessageType.KNIGHT:
-        return <Badge bg="primary" style={{fontSize: '10px'}}>⚔️ Рыцарь</Badge>;
-      case MessageType.ROBOT:
-        return <Badge bg="dark" style={{fontSize: '10px'}}>🤖 Робот</Badge>;
       default:
         return null;
     }
@@ -160,7 +139,7 @@ const MessageContent = ({ message }) => {
                            message.content.includes('___') ||
                            message.content.includes('\\') ||
                            message.content.includes('//') ||
-                           /[_\/\\|]{4,}/.test(message.content);
+                           /[_/\\|]{4,}/.test(message.content);
   
   const getContentClasses = () => {
     // Принудительно применяем ASCII стили
@@ -173,12 +152,6 @@ const MessageContent = ({ message }) => {
         return 'message-content ascii-art-content';
       case MessageType.SYSTEM:
         return 'message-content system-content';
-      case MessageType.PIRATE:
-        return 'message-content pirate-content';
-      case MessageType.KNIGHT:
-        return 'message-content knight-content';
-      case MessageType.ROBOT:
-        return 'message-content robot-content';
       default:
         return 'message-content';
     }

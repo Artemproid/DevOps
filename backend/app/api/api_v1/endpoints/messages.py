@@ -119,7 +119,7 @@ async def create_message(
     message_dict = {
         "id": message.id,
         "content": message.content,
-        "message_type": message.message_type.value,  # Добавляем тип сообщения
+        "message_type": message.message_type,
         "created_at": message.created_at.isoformat(),
         "user_id": message.user_id,
         "chat_id": message.chat_id,

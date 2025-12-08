@@ -15,10 +15,16 @@ const getAllUsers = async (skip = 0, limit = 100) => {
   return response.data;
 };
 
+const updateProfile = async (profileData) => {
+  const response = await api.put('/users/me/profile/', profileData);
+  return response.data;
+};
+
 const userService = {
   searchUsers,
   getUser,
   getAllUsers,
+  updateProfile,
 };
 
 export default userService;

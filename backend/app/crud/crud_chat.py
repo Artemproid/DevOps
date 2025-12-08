@@ -150,7 +150,7 @@ def get_user_chats_with_details(db: Session, user_id: int) -> List[Dict[str, Any
         result.append({
             "id": chat.id,
             "name": chat_name,
-            "chat_type": chat.chat_type.value,
+            "chat_type": chat.chat_type,
             "created_at": chat.created_at,
             "last_message": {
                 "id": last_message.id,

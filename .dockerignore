@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+!README.md
+
+# Windows files
+*.bat
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+111.txt
+pirates.txt
+test_*.py
+FIX_*.md
+QUICK_START.md
+
+# Environment files
+.env
+.env.local
+.env.production
+frontend/.env.development.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# SSL (добавляются на сервере)
+nginx/ssl/*.pem
+nginx/ssl/*.key
+nginx/ssl/*.crt

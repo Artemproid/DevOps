@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Card, Row, Col } from 'react-bootstrap';
+import { Badge, Card } from 'react-bootstrap';
 import './ModernMessages.css';
 
 /**
@@ -8,12 +8,9 @@ import './ModernMessages.css';
 
 // Типы сообщений
 export const MessageType = {
-  REGULAR: "regular",
+  REGULAR: "normal",
   ASCII_ART: "ascii_art", 
-  PIRATE: "pirate",
-  SYSTEM: "system",
-  KNIGHT: "knight",
-  ROBOT: "robot"
+  SYSTEM: "system"
 };
 
 /**
@@ -33,14 +30,8 @@ const getTypeIcon = (messageType) => {
   switch (messageType) {
     case MessageType.ASCII_ART:
       return { icon: '🎨', color: '#6c757d', label: 'ASCII Арт' };
-    case MessageType.PIRATE:
-      return { icon: '🏴‍☠️', color: '#fd7e14', label: 'Пиратское' };
     case MessageType.SYSTEM:
       return { icon: '🤖', color: '#17a2b8', label: 'Система' };
-    case MessageType.KNIGHT:
-      return { icon: '⚔️', color: '#6610f2', label: 'Рыцарское' };
-    case MessageType.ROBOT:
-      return { icon: '🔧', color: '#6c757d', label: 'Роботическое' };
     default:
       return { icon: '💬', color: '#007bff', label: 'Обычное' };
   }
@@ -54,8 +45,8 @@ const detectMessageType = (content) => {
   if (content.includes('___') || 
       content.includes('\\') || 
       content.includes('//') ||
-      /[_\/\\|]{4,}/.test(content) ||
-      /\n.*[_\/\\|].*\n/.test(content)) {
+      /[_/\\|]{4,}/.test(content) ||
+      /\n.*[_/\\|].*\n/.test(content)) {
     return MessageType.ASCII_ART;
   }
   
@@ -64,12 +55,6 @@ const detectMessageType = (content) => {
   // Системные сообщения
   if (contentLower.startsWith('🤖') || contentLower.startsWith('система:')) {
     return MessageType.SYSTEM;
-  }
-  
-  // Пиратские сообщения
-  const pirateWords = ['arr', 'ahoy', 'матей', 'корабль', 'сокровище', 'пират'];
-  if (pirateWords.some(word => contentLower.includes(word))) {
-    return MessageType.PIRATE;
   }
   
   return MessageType.REGULAR;
@@ -202,27 +187,6 @@ const MessageContent = ({ message, messageType }) => {
         return (
           <div className="system-content">
             <em>{message.content}</em>
-          </div>
-        );
-        
-      case MessageType.PIRATE:
-        return (
-          <div className="pirate-content">
-            <span className="pirate-text">{message.content}</span>
-          </div>
-        );
-        
-      case MessageType.KNIGHT:
-        return (
-          <div className="knight-content">
-            <em className="knight-text">{message.content}</em>
-          </div>
-        );
-        
-      case MessageType.ROBOT:
-        return (
-          <div className="robot-content">
-            <span className="robot-text">{message.content.toUpperCase()}</span>
           </div>
         );
         

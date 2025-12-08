@@ -56,6 +56,24 @@ def search_users(
     return users
 
 
+@router.put("/me/profile/", response_model=schemas.User)
+def update_profile(
+    profile_in: schemas.ProfileUpdate,
+    db: Session = Depends(deps.get_db),
+    current_user: models.User = Depends(deps.get_current_active_user),
+) -> Any:
+    """
+    Update current user profile.
+    """
+    user = crud.crud_user.update_profile(
+        db, 
+        user_id=current_user.id, 
+        avatar_url=profile_in.avatar_url,
+        bio=profile_in.bio
+    )
+    return user
+
+
 @router.get("/{user_id}/", response_model=schemas.User)
 def read_user(
     user_id: int,

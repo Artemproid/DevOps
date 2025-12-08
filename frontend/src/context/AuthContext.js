@@ -64,6 +64,17 @@ export const AuthProvider = ({ children }) => {
     websocketService.disconnect();
   };
 
+  const refreshUser = async () => {
+    try {
+      const user = await authService.getCurrentUser();
+      setCurrentUser(user);
+      return user;
+    } catch (error) {
+      console.error('Error refreshing user:', error);
+      throw error;
+    }
+  };
+
   const value = {
     currentUser,
     token,
@@ -71,7 +82,8 @@ export const AuthProvider = ({ children }) => {
     loading,
     login,
     register,
-    logout
+    logout,
+    refreshUser
   };
 
   return (

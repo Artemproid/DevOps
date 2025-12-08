@@ -18,7 +18,7 @@ def init_database():
         
         # Импортируем все модели
         from app.models.user import User
-        from app.models.chat import Chat
+        from app.models.chat import Chat, ChatParticipant
         from app.models.message import Message
         
         print("📋 Создаем таблицы...")

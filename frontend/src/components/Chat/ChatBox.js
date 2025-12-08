@@ -1,10 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useParams } from 'react-router-dom';
 import { Form, Button, Card, Alert, Spinner, Badge } from 'react-bootstrap';
 import MessageList from './MessageList';
 import OnlineUsers from './OnlineUsers';
-import PirateMode from './PirateMode';
-import PiratePreview from './PiratePreview';
 import PremiumSubscription from '../Payment/PremiumSubscription';
 import ASCIIArtGenerator from '../ASCIIArt/ASCIIArtGenerator';
 import MessageTypeSelector from './MessageTypeSelector';
@@ -18,7 +16,6 @@ import './Chat.css';
 
 function ChatBox() {
   const { userId } = useParams(); // ID пользователя для приватного чата
-  const navigate = useNavigate();
   const { currentUser } = useAuth();
   
   const [messages, setMessages] = useState([]);
@@ -32,10 +29,6 @@ function ChatBox() {
   const [onlineUsers, setOnlineUsers] = useState([]); // Онлайн пользователи
   const [isConnected, setIsConnected] = useState(false);
   const [showOnlineUsers, setShowOnlineUsers] = useState(false);
-  
-  // Пиратский режим
-  const [pirateMode, setPirateMode] = useState(false);
-  const [pirateTransformFunction, setPirateTransformFunction] = useState(null);
   
   // Премиум статус
   const [isPremium, setIsPremium] = useState(false);
@@ -59,7 +52,6 @@ function ChatBox() {
 
   // Определяем тип чата
   const isPrivateChat = !!userId;
-  const isPublicChat = !userId;
 
   // Инициализация WebSocket соединения (только один раз при монтировании)
   useEffect(() => {
@@ -130,9 +122,46 @@ function ChatBox() {
   }, []); // Убираем зависимости!
 
   // Загрузка чата и сообщений
+  const loadChat = useCallback(async () => {
+    try {
+      setLoading(true);
+      setError('');
+      
+      let chat;
+      
+      if (isPrivateChat) {
+        // Приватный чат
+        chat = await chatService.getOrCreatePrivateChat(userId);
+        
+        // Загружаем информацию о собеседнике
+        const partner = await userService.getUser(userId);
+        setChatPartner(partner);
+        
+        // Загружаем сообщения
+        const msgs = await messageService.getPrivateMessages(userId);
+        setMessages(msgs);
+      } else {
+        // Общий чат
+        chat = await chatService.getPublicChat();
+        setChatPartner(null);
+        
+        // Загружаем сообщения
+        const msgs = await messageService.getMessages();
+        setMessages(msgs);
+      }
+      
+      setCurrentChat(chat);
+    } catch (err) {
+      console.error('Error loading chat:', err);
+      setError('Ошибка при загрузке чата');
+    } finally {
+      setLoading(false);
+    }
+  }, [isPrivateChat, userId]);
+
   useEffect(() => {
     loadChat();
-  }, [userId]);
+  }, [loadChat]);
 
   // Обработчик события отправки ASCII из генератора
   useEffect(() => {
@@ -199,43 +228,6 @@ function ChatBox() {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const loadChat = async () => {
-    try {
-      setLoading(true);
-      setError('');
-      
-      let chat;
-      
-      if (isPrivateChat) {
-        // Приватный чат
-        chat = await chatService.getOrCreatePrivateChat(userId);
-        
-        // Загружаем информацию о собеседнике
-        const partner = await userService.getUser(userId);
-        setChatPartner(partner);
-        
-        // Загружаем сообщения
-        const msgs = await messageService.getPrivateMessages(userId);
-        setMessages(msgs);
-      } else {
-        // Общий чат
-        chat = await chatService.getPublicChat();
-        setChatPartner(null);
-        
-        // Загружаем сообщения
-        const msgs = await messageService.getMessages();
-        setMessages(msgs);
-      }
-      
-      setCurrentChat(chat);
-    } catch (err) {
-      console.error('Error loading chat:', err);
-      setError('Ошибка при загрузке чата');
-    } finally {
-      setLoading(false);
-    }
-  };
-
   const handleSendMessage = async (e) => {
     e.preventDefault();
     
@@ -253,20 +245,18 @@ function ChatBox() {
       // Определяем какой текст отправлять
       let messageToSend = newMessage.trim();
       
-      // Если включен пиратский режим, стилизируем сообщение
-      if (pirateMode && pirateTransformFunction) {
-        try {
-          const pirateResult = await pirateTransformFunction(messageToSend);
-          messageToSend = pirateResult.pirate_text || pirateResult.styled || messageToSend;
-        } catch (err) {
-          console.error('Ошибка пиратской стилизации:', err);
-          // Отправляем оригинальное сообщение если стилизация не удалась
-        }
-      }
+      // Отправляем сообщение через HTTP API с типом
+      const sentMessage = await messageService.sendMessage(messageToSend, currentChat.id, selectedMessageType);
       
-      // Отправляем сообщение через HTTP API с типом (WebSocket будет уведомлять о новом сообщении)
-      await messageService.sendMessage(messageToSend, currentChat.id, selectedMessageType);
+      // Добавляем сообщение в список локально (если WebSocket не доставит дубликат)
+      setMessages(prev => {
+        const exists = prev.find(msg => msg.id === sentMessage.id);
+        if (exists) return prev;
+        return [...prev, sentMessage];
+      });
+      
       setNewMessage('');
+      setTimeout(scrollToBottom, 100);
       
     } catch (err) {
       console.error('Error sending message:', err);
@@ -329,15 +319,6 @@ function ChatBox() {
     return `${typingUsers.length} печатают...`;
   };
 
-  const handlePirateToggle = (transformFunction) => {
-    if (transformFunction) {
-      setPirateMode(true);
-      setPirateTransformFunction(() => transformFunction);
-    } else {
-      setPirateMode(false);
-      setPirateTransformFunction(null);
-    }
-  };
 
   if (loading) {
     return (
@@ -396,9 +377,6 @@ function ChatBox() {
               >
                 👥 ({onlineUsers.length})
               </Button>
-              
-              {/* Пиратский режим */}
-              <PirateMode onTextTransform={handlePirateToggle} isPremium={isPremium} />
             </div>
           </div>
         </Card.Body>
@@ -439,13 +417,6 @@ function ChatBox() {
         </Card>
       </div>
 
-      {/* Предпросмотр пиратского текста */}
-      <PiratePreview 
-        originalText={newMessage}
-        transformFunction={pirateTransformFunction}
-        isVisible={pirateMode && newMessage.trim().length > 0}
-      />
-
       {/* ASCII Арт Генератор */}
       <ASCIIArtGenerator isPremium={isPremium} />
 
@@ -476,7 +447,7 @@ function ChatBox() {
               <Form.Control
                 as="textarea"
                 rows={1}
-                placeholder={pirateMode ? "Введите сообщение (будет стилизовано по-пиратски)..." : "Введите сообщение..."}
+                placeholder="Введите сообщение..."
                 value={newMessage}
                 onChange={handleInputChange}
                 onKeyDown={(e) => {
@@ -485,27 +456,26 @@ function ChatBox() {
                     handleSendMessage(e);
                   }
                 }}
-                disabled={sending || !isConnected}
+                disabled={sending}
                 className="flex-grow-1"
                 style={{
                   resize: 'none',
                   overflow: 'hidden',
-                  minHeight: '38px',
-                  ...(pirateMode ? { borderColor: '#ffa500', backgroundColor: '#fef7e0' } : {})
+                  minHeight: '38px'
                 }}
               />
               <Button 
                 type="submit" 
                 disabled={!newMessage.trim() || sending}
-                variant={pirateMode ? "warning" : "primary"}
+                variant="primary"
               >
                 {sending ? (
                   <>
                     <Spinner size="sm" className="me-1" />
-                    {pirateMode ? 'Отправляем arr!' : 'Отправка...'}
+                    Отправка...
                   </>
                 ) : (
-                  pirateMode ? '🏴‍☠️ Отправить' : 'Отправить'
+                  'Отправить'
                 )}
               </Button>
             </div>

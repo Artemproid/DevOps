@@ -85,7 +85,7 @@ class StripeService:
                 mode="subscription",
                 success_url=success_url,
                 cancel_url=cancel_url,
-                metadata={"feature": "pirate_mode"}
+                metadata={"feature": "premium_subscription"}
             )
             
             logger.info(f"✅ Checkout session created: {session.id}")

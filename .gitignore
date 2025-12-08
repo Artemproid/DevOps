@@ -40,6 +40,7 @@ Thumbs.db
 *.safetensors
 models/
 rus_gpt2/
+bin/
 
 # Temporary files
 *.tmp
@@ -48,3 +49,22 @@ rus_gpt2/
 # Build files
 dist/
 build/
+
+# Windows batch files (не нужны на Linux)
+*.bat
+
+# Temporary/debug files
+111.txt
+pirates.txt
+test_*.py
+FIX_*.md
+QUICK_START.md
+
+# Frontend env files
+frontend/.env.development.local
+frontend/.env.local
+
+# SSL certificates (добавляются вручную на сервере)
+nginx/ssl/*.pem
+nginx/ssl/*.key
+nginx/ssl/*.crt

@@ -1,21 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Button, Card, Alert, Spinner, Badge, Modal } from 'react-bootstrap';
-import { useAuth } from '../../hooks/useAuth';
 import api from '../../utils/axios';
 
 function PremiumSubscription({ onSubscriptionChange }) {
-  const { currentUser } = useAuth();
   const [subscriptionStatus, setSubscriptionStatus] = useState(null);
   const [loading, setLoading] = useState(true);
   const [processing, setProcessing] = useState(false);
   const [error, setError] = useState('');
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
-    fetchSubscriptionStatus();
-  }, []);
-
-  const fetchSubscriptionStatus = async () => {
+  const fetchSubscriptionStatus = useCallback(async () => {
     try {
       setLoading(true);
       const response = await api.get('/payments/subscription-status');
@@ -29,7 +23,11 @@ function PremiumSubscription({ onSubscriptionChange }) {
     } finally {
       setLoading(false);
     }
-  };
+  }, [onSubscriptionChange]);
+
+  useEffect(() => {
+    fetchSubscriptionStatus();
+  }, [fetchSubscriptionStatus]);
 
   const handleSubscribe = async () => {
     try {

@@ -5,8 +5,6 @@ from abc import ABC, abstractmethod
 from typing import Optional, Dict, Any
 import re
 
-from app.models.message import MessageType
-
 
 class MessageProcessor(ABC):
     """Абстрактный базовый класс для обработки сообщений"""
@@ -17,7 +15,7 @@ class MessageProcessor(ABC):
         pass
     
     @abstractmethod
-    def get_type(self) -> MessageType:
+    def get_type(self) -> str:
         """Возвращает тип сообщения"""
         pass
 
@@ -31,8 +29,8 @@ class RegularMessageProcessor(MessageProcessor):
             "message_type": self.get_type()
         }
     
-    def get_type(self) -> MessageType:
-        return MessageType.REGULAR
+    def get_type(self) -> str:
+        return "normal"
 
 
 class ASCIIArtMessageProcessor(MessageProcessor):
@@ -45,8 +43,8 @@ class ASCIIArtMessageProcessor(MessageProcessor):
             "message_type": self.get_type()
         }
     
-    def get_type(self) -> MessageType:
-        return MessageType.ASCII_ART
+    def get_type(self) -> str:
+        return "ascii_art"
     
     @staticmethod
     def is_ascii_art(content: str) -> bool:
@@ -82,19 +80,6 @@ class ASCIIArtMessageProcessor(MessageProcessor):
         return False
 
 
-class PirateMessageProcessor(MessageProcessor):
-    """Обработчик пиратских сообщений"""
-    
-    def process(self, content: str, **kwargs) -> Dict[str, Any]:
-        return {
-            "content": content.strip(),
-            "message_type": self.get_type()
-        }
-    
-    def get_type(self) -> MessageType:
-        return MessageType.PIRATE
-
-
 class SystemMessageProcessor(MessageProcessor):
     """Обработчик системных сообщений"""
     
@@ -104,34 +89,8 @@ class SystemMessageProcessor(MessageProcessor):
             "message_type": self.get_type()
         }
     
-    def get_type(self) -> MessageType:
-        return MessageType.SYSTEM
-
-
-class KnightMessageProcessor(MessageProcessor):
-    """Обработчик рыцарских сообщений"""
-    
-    def process(self, content: str, **kwargs) -> Dict[str, Any]:
-        return {
-            "content": content.strip(),
-            "message_type": self.get_type()
-        }
-    
-    def get_type(self) -> MessageType:
-        return MessageType.KNIGHT
-
-
-class RobotMessageProcessor(MessageProcessor):
-    """Обработчик роботических сообщений"""
-    
-    def process(self, content: str, **kwargs) -> Dict[str, Any]:
-        return {
-            "content": content.strip(),
-            "message_type": self.get_type()
-        }
-    
-    def get_type(self) -> MessageType:
-        return MessageType.ROBOT
+    def get_type(self) -> str:
+        return "system"
 
 
 class MessageFactory:
@@ -139,18 +98,15 @@ class MessageFactory:
     
     def __init__(self):
         self._processors = {
-            MessageType.REGULAR: RegularMessageProcessor(),
-            MessageType.ASCII_ART: ASCIIArtMessageProcessor(),
-            MessageType.PIRATE: PirateMessageProcessor(),
-            MessageType.SYSTEM: SystemMessageProcessor(),
-            MessageType.KNIGHT: KnightMessageProcessor(),
-            MessageType.ROBOT: RobotMessageProcessor(),
+            "normal": RegularMessageProcessor(),
+            "ascii_art": ASCIIArtMessageProcessor(),
+            "system": SystemMessageProcessor(),
         }
     
     def create_message_data(
         self, 
         content: str, 
-        message_type: Optional[MessageType] = None,
+        message_type: Optional[str] = None,
         auto_detect: bool = True,
         **kwargs
     ) -> Dict[str, Any]:
@@ -170,34 +126,29 @@ class MessageFactory:
         if message_type is None and auto_detect:
             message_type = self._detect_message_type(content)
         elif message_type is None:
-            message_type = MessageType.REGULAR
+            message_type = "normal"
         
         # Получаем соответствующий процессор
-        processor = self._processors.get(message_type, self._processors[MessageType.REGULAR])
+        processor = self._processors.get(message_type, self._processors["normal"])
         
         # Обрабатываем сообщение
         return processor.process(content, **kwargs)
     
-    def _detect_message_type(self, content: str) -> MessageType:
+    def _detect_message_type(self, content: str) -> str:
         """Автоматически определяет тип сообщения"""
         # Проверяем на ASCII арт
         if ASCIIArtMessageProcessor.is_ascii_art(content):
-            return MessageType.ASCII_ART
+            return "ascii_art"
         
         # Проверяем на системные сообщения (начинаются с префиксов)
         content_lower = content.lower().strip()
         if any(content_lower.startswith(prefix) for prefix in ['система:', 'system:', '🤖']):
-            return MessageType.SYSTEM
-        
-        # Проверяем на пиратские сообщения (содержат характерные слова)
-        pirate_words = ['arr', 'ahoy', 'матей', 'корабль', 'сокровище', 'пират']
-        if any(word in content_lower for word in pirate_words):
-            return MessageType.PIRATE
+            return "system"
         
         # По умолчанию - обычное сообщение
-        return MessageType.REGULAR
+        return "normal"
     
-    def get_available_types(self) -> list[MessageType]:
+    def get_available_types(self) -> list[str]:
         """Возвращает список доступных типов сообщений"""
         return list(self._processors.keys())
 

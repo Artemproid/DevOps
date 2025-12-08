@@ -2,11 +2,17 @@ class WebSocketService {
   constructor() {
     this.ws = null;
     this.token = null;
-    this.url = 'ws://localhost:8080/api/ws/ws';
     this.reconnectInterval = 5000;
     this.reconnectAttempts = 0;
     this.maxReconnectAttempts = 5;
     this.listeners = {};
+  }
+
+  getWebSocketUrl() {
+    // Динамически определяем URL на основе текущего хоста
+    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    const host = window.location.host;
+    return `${protocol}//${host}/api/ws/ws`;
   }
 
   connect(token) {
@@ -31,8 +37,9 @@ class WebSocketService {
     }
 
     try {
-      console.log('Connecting WebSocket with token:', token ? 'present' : 'missing');
-      this.ws = new WebSocket(`${this.url}?token=${encodeURIComponent(token)}`);
+      const wsUrl = this.getWebSocketUrl();
+      console.log('Connecting WebSocket to:', wsUrl, 'with token:', token ? 'present' : 'missing');
+      this.ws = new WebSocket(`${wsUrl}?token=${encodeURIComponent(token)}`);
       
       this.ws.onopen = (event) => {
         console.log('✅ WebSocket connected successfully');

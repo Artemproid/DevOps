@@ -66,9 +66,9 @@ function ChatList() {
   }, []);
 
   const handleChatClick = (chat) => {
-    if (chat.chat_type === 'PUBLIC') {
+    if (chat.chat_type === 'public') {
       navigate('/chat');
-    } else if (chat.chat_type === 'PRIVATE' && chat.chat_partner) {
+    } else if (chat.chat_type === 'private' && chat.chat_partner) {
       navigate(`/chat/${chat.chat_partner.id}`);
     }
   };
@@ -142,10 +142,10 @@ function ChatList() {
                   <div className="flex-grow-1">
                     <div className="d-flex align-items-center mb-1">
                       <strong className="chat-name">
-                        {chat.chat_type === 'PUBLIC' ? '🌐 ' : '👤 '}
+                        {chat.chat_type === 'public' ? '🌐 ' : '👤 '}
                         {chat.name}
                       </strong>
-                      {chat.chat_type === 'PRIVATE' && chat.chat_partner && isUserOnline(chat.chat_partner.id) && (
+                      {chat.chat_type === 'private' && chat.chat_partner && isUserOnline(chat.chat_partner.id) && (
                         <span className="online-badge ms-2" title="Онлайн"></span>
                       )}
                     </div>
@@ -166,7 +166,7 @@ function ChatList() {
                         {formatTime(chat.last_message.created_at)}
                       </small>
                     )}
-                    {chat.chat_type === 'PUBLIC' && (
+                    {chat.chat_type === 'public' && (
                       <Badge bg="success" className="ms-2">Общий</Badge>
                     )}
                   </div>

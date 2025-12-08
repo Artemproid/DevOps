@@ -9,6 +9,8 @@ class UserBase(BaseModel):
     username: Optional[str] = None
     is_active: Optional[bool] = True
     is_premium: Optional[bool] = False
+    avatar_url: Optional[str] = None
+    bio: Optional[str] = None
 
 
 # Properties to receive via API on creation
@@ -21,6 +23,12 @@ class UserCreate(UserBase):
 # Properties to receive via API on update
 class UserUpdate(UserBase):
     password: Optional[str] = None
+
+
+# Properties for profile update
+class ProfileUpdate(BaseModel):
+    avatar_url: Optional[str] = None
+    bio: Optional[str] = None
 
 
 class UserInDBBase(UserBase):

@@ -81,4 +81,17 @@ def search_users(db: Session, query: str, skip: int = 0, limit: int = 20) -> Lis
             User.username.ilike(f"%{query}%"),
             User.email.ilike(f"%{query}%")
         )
-    ).filter(User.is_active == True).offset(skip).limit(limit).all() 
+    ).filter(User.is_active == True).offset(skip).limit(limit).all()
+
+
+def update_profile(db: Session, user_id: int, avatar_url: Optional[str] = None, bio: Optional[str] = None) -> Optional[User]:
+    """Обновить профиль пользователя"""
+    user = db.query(User).filter(User.id == user_id).first()
+    if user:
+        if avatar_url is not None:
+            user.avatar_url = avatar_url
+        if bio is not None:
+            user.bio = bio
+        db.commit()
+        db.refresh(user)
+    return user 
