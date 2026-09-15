@@ -1,56 +1,73 @@
-# Проект "Социальная сеть с чатом"
+Проект "Социальная сеть с чатом"
+Пет-проект социальной сети с общим чатом и полным циклом контейнеризации и развёртывания.
 
-Простой пет-проект социальной сети с функцией общего чата.
+Технологии
+Backend: FastAPI, SQLAlchemy, SQLite, JWT-аутентификация
 
-## Технологии
+Frontend: React, React Router, React Bootstrap, Axios
 
-### Backend
-- FastAPI
-- SQLAlchemy
-- SQLite
-- JWT для аутентификации
+DevOps / Инфраструктура:
 
-### Frontend
-- React
-- React Router
-- React Bootstrap
-- Axios
+Docker + Docker Compose — контейнеризация и оркестрация сервисов
 
-## Структура проекта
+Nginx — reverse proxy и раздача статики фронтенда
 
-```
+Multi-stage сборки Docker-образов для backend и frontend
+
+Разделение окружений: dev / prod конфигурации
+
+Управление секретами через env-переменные
+
+Готовность к переходу на PostgreSQL для продакшена
+
+Структура проекта
+text
 social-network/
-├── backend/              # Серверная часть на FastAPI
+├── backend/              # FastAPI-сервис
 │   ├── app/              # Код приложения
-│   ├── Dockerfile        # Конфигурация Docker для бэкенда
+│   ├── Dockerfile        # Multi-stage сборка backend
 │   └── requirements.txt  # Зависимости Python
-├── frontend/             # Клиентская часть на React
+├── frontend/             # React SPA
 │   ├── public/           # Статические файлы
-│   ├── src/              # Исходный код React
-│   ├── Dockerfile        # Конфигурация Docker для фронтенда
-│   └── package.json      # Зависимости и скрипты NPM
-└── docker-compose.yml    # Конфигурация Docker Compose
-```
+│   ├── src/              # Исходный код
+│   ├── Dockerfile        # Сборка и раздача через Nginx
+│   └── package.json      # Зависимости NPM
+├── nginx/                # Конфигурация reverse proxy
+├── .env.example          # Шаблон переменных окружения
+└── docker-compose.yml    # Оркестрация всех сервисов
+DevOps-составляющая
+Контейнеризация: каждый сервис (backend, frontend, nginx) изолирован в отдельном контейнере
 
-## Запуск проекта с Docker
+Оркестрация: Docker Compose управляет сетью, томами и зависимостями между сервисами
 
-1. Убедитесь, что у вас установлены Docker и Docker Compose
-2. Клонируйте репозиторий: `git clone <URL>`
-3. Перейдите в директорию проекта: `cd social-network`
-4. Запустите контейнеры: `docker-compose up -d`
-5. Приложение будет доступно по адресу: http://localhost:3000
+Сеть: выделенная bridge-сеть для взаимодействия контейнеров
 
-## Функциональность
+Reverse proxy: Nginx маршрутизирует запросы между фронтендом и API
 
-- Регистрация и авторизация пользователей
-- Общий чат для всех пользователей
-- Просмотр сообщений в реальном времени
+Конфигурация: вынесена в env-файлы, секреты не попадают в репозиторий
 
-## Развертывание
+Production-ready: multi-stage сборки, оптимизация образов, готовность к HTTPS и PostgreSQL
 
-Изначально приложение настроено для разработки. Для продакшн-версии:
+Запуск
+bash
+git clone <URL>
+cd social-network
+cp .env.example .env
+docker-compose up -d --build
+Приложение доступно по адресу: http://localhost:3000
 
-1. Для бэкенда: настройте более надежную базу данных (PostgreSQL)
-2. Для фронтенда: выполните `npm run build` и настройте Nginx
-3. Добавьте SSL-сертификат для HTTPS
-4. Настройте env-переменные для конфиденциальных данных 
+Функциональность
+Регистрация и авторизация (JWT)
+
+Общий чат для всех пользователей
+
+Просмотр сообщений в реальном времени
+
+Направления развития инфраструктуры
+Переход на PostgreSQL
+
+Настройка CI/CD (Gitea + Drone / GitHub Actions)
+
+Мониторинг через Prometheus + Grafana
+
+Автоматизация деплоя и SSL через Let's Encrypt
